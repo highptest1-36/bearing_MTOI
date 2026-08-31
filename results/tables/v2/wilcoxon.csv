@@ -1,0 +1,9 @@
+comparison,n,mean_a,mean_b,median_diff,p_value,rank_biserial,prop_wins,dataset,holm_p,holm_sig_0.05
+vtoi_static vs transformer_vib,17,0.2728,0.2712,0.0027,0.4586,0.216,11/17,pronostia,0.4586,False
+vtoi_static vs tcn_vib,17,0.2876,0.2712,0.0089,0.0093,0.699,13/17,pronostia,0.0186,True
+vtoi_static vs tcn_transformer_vib,17,0.2936,0.2712,0.0179,0.0056,0.739,13/17,pronostia,0.0168,True
+vtoi_static vs cnn_bilstm_attn_vib,17,0.3451,0.2712,0.0614,0.0,1.0,17/17,pronostia,0.0,True
+vtoi_static vs transformer_vib,15,0.2423,0.2393,-0.0001,0.5995,0.167,7/15,xjtu_sy,0.5995,False
+vtoi_static vs tcn_vib,15,0.2705,0.2393,0.0226,0.002,0.85,14/15,xjtu_sy,0.008,True
+vtoi_static vs tcn_transformer_vib,15,0.2731,0.2393,0.0157,0.0054,0.783,13/15,xjtu_sy,0.0129,True
+vtoi_static vs cnn_bilstm_attn_vib,15,0.2741,0.2393,0.029,0.0043,0.8,14/15,xjtu_sy,0.0129,True

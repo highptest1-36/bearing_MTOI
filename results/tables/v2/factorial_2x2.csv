@@ -1,0 +1,15 @@
+dataset,conditioning,aux_loss,config,n,mean,median
+pronostia,off,off,transformer_vib,17,0.2728,0.2809
+pronostia,off,on,abl_no_idxhead,17,0.2725,0.2852
+pronostia,on,off,abl_cond_noaux,17,0.2665,0.2751
+pronostia,on,on,vtoi_static,17,0.2712,0.2829
+pronostia,MAIN EFFECT,-,cond(on)-cond(off),0,-0.0038,
+pronostia,-,MAIN EFFECT,aux(on)-aux(off),0,0.0022,
+pronostia,INTERACTION,INTERACTION,cond x aux,0,0.005,
+xjtu_sy,off,off,transformer_vib,15,0.2423,0.244
+xjtu_sy,off,on,abl_no_idxhead,15,0.2407,0.2374
+xjtu_sy,on,off,abl_cond_noaux,15,0.2449,0.2602
+xjtu_sy,on,on,vtoi_static,15,0.2393,0.2534
+xjtu_sy,MAIN EFFECT,-,cond(on)-cond(off),0,0.0006,
+xjtu_sy,-,MAIN EFFECT,aux(on)-aux(off),0,-0.0036,
+xjtu_sy,INTERACTION,INTERACTION,cond x aux,0,-0.0041,

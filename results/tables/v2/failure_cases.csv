@@ -1,0 +1,11 @@
+dataset,bearing,rank,n_snapshots,mae_norm,mae_hours,rho_signed,vtoi_sat_frac
+PRONOSTIA,Full_Test_Set_Bearing2_3,WORST,1955,0.2954,0.962,0.0979,0.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,WORST,2311,0.3026,1.165,0.246,0.0
+PRONOSTIA,Learning_set_Bearing2_2,WORST,797,0.3341,0.443,-0.7321,0.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,best,2375,0.1808,0.715,-0.8234,0.2164
+PRONOSTIA,Full_Test_Set_Bearing1_4,best,1428,0.2072,0.493,-0.5482,0.1954
+XJTU-SY,35Hz12kN_Bearing1_4,WORST,122,0.28,0.339,-0.4759,0.0
+XJTU-SY,35Hz12kN_Bearing1_2,WORST,161,0.3161,0.506,-0.7828,0.0683
+XJTU-SY,40Hz10kN_Bearing3_5,WORST,114,0.437,0.494,-0.4089,0.0263
+XJTU-SY,37.5Hz11kN_Bearing2_4,best,42,0.1404,0.058,-0.8926,0.0476
+XJTU-SY,37.5Hz11kN_Bearing2_3,best,533,0.1426,0.759,-0.9176,0.0056

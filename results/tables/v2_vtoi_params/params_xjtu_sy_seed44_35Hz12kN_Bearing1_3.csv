@@ -1,0 +1,2 @@
+dataset,holdout,seed,n_train_bearings,H_max_train,a,b,fitness,a_mono,b_mono,E_lo,E_hi,C_lo,C_hi,holdout_sat_frac,holdout_n_baseline,holdout_cov_estimator,holdout_shrinkage
+xjtu_sy,35Hz12kN_Bearing1_3,44,13,2538,1.0,0.0,0.925663,1.0,0.0,0.8168136329943589,8.320494541534774,0.4616507736465798,5.399246990121434,0.0759493670886076,31,ledoit_wolf,0.1666749678628381

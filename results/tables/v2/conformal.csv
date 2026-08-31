@@ -1,0 +1,5 @@
+dataset,nominal,picp_mean,picp_median,picp_min,mpiw_mean,n
+pronostia,0.8,0.7859,0.8047,0.2523,0.7322,51
+pronostia,0.9,0.8704,0.9042,0.3604,0.9768,51
+xjtu_sy,0.8,0.7732,0.8302,0.205,0.7443,45
+xjtu_sy,0.9,0.8386,0.9343,0.2807,0.9222,45

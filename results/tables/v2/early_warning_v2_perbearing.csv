@@ -1,0 +1,831 @@
+dataset,bearing,detector,onset_frac,onset,first_alarm,n,tau_selected,k_rms_selected,k_kur_selected,fired,precision,recall,lead
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.6,1425,871,2375,0.3,0.75,1.25,1,0.6316,1.0,554.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.6, a priori)",0.6,1425,1641,2375,0.3,0.75,1.25,1,1.0,0.7726,-216.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS 3-sigma,0.6,1425,1427,2375,0.3,0.75,1.25,1,1.0,0.9979,-2.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis 3-sigma,0.6,1425,35,2375,0.3,0.75,1.25,1,0.406,1.0,1390.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS k-sigma (train-selected),0.6,1425,77,2375,0.3,0.75,1.25,1,0.4134,1.0,1348.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis k-sigma (train-selected),0.6,1425,35,2375,0.3,0.75,1.25,1,0.406,1.0,1390.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,VTOI (tau=0.6),data-driven(RMS 3sigma),1427,1641,2375,,,,1,1.0,0.7743,-214.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),1427,35,2375,,,,1,0.4051,1.0,1392.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.6,856,1082,1428,0.3,0.75,1.25,1,1.0,0.6049,-226.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.6, a priori)",0.6,856,1088,1428,0.3,0.75,1.25,1,1.0,0.5944,-232.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS 3-sigma,0.6,856,1086,1428,0.3,0.75,1.25,1,1.0,0.5979,-230.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis 3-sigma,0.6,856,1079,1428,0.3,0.75,1.25,1,1.0,0.6101,-223.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS k-sigma (train-selected),0.6,856,51,1428,0.3,0.75,1.25,1,0.4154,1.0,805.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis k-sigma (train-selected),0.6,856,1079,1428,0.3,0.75,1.25,1,1.0,0.6101,-223.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,VTOI (tau=0.6),data-driven(RMS 3sigma),1086,1088,1428,,,,1,1.0,0.9942,-2.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis 3-sigma,data-driven(RMS 3sigma),1086,1079,1428,,,,1,0.9799,1.0,7.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.6,1477,2411,2463,0.3,0.75,1.25,1,1.0,0.0527,-934.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.6, a priori)",0.6,1477,-1,2463,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS 3-sigma,0.6,1477,2411,2463,0.3,0.75,1.25,1,1.0,0.0527,-934.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis 3-sigma,0.6,1477,2411,2463,0.3,0.75,1.25,1,1.0,0.0527,-934.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS k-sigma (train-selected),0.6,1477,78,2463,0.3,0.75,1.25,1,0.4134,1.0,1399.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis k-sigma (train-selected),0.6,1477,2411,2463,0.3,0.75,1.25,1,1.0,0.0527,-934.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,VTOI (tau=0.6),data-driven(RMS 3sigma),2411,-1,2463,,,,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis 3-sigma,data-driven(RMS 3sigma),2411,2411,2463,,,,1,1.0,1.0,0.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.30, train-selected)",0.6,1468,1630,2448,0.3,0.75,1.25,1,1.0,0.8347,-162.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.6, a priori)",0.6,1468,1877,2448,0.3,0.75,1.25,1,1.0,0.5827,-409.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS 3-sigma,0.6,1468,1632,2448,0.3,0.75,1.25,1,1.0,0.8327,-164.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis 3-sigma,0.6,1468,1630,2448,0.3,0.75,1.25,1,1.0,0.8347,-162.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS k-sigma (train-selected),0.6,1468,28,2448,0.3,0.75,1.25,1,0.405,1.0,1440.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis k-sigma (train-selected),0.6,1468,487,2448,0.3,0.75,1.25,1,0.4997,1.0,981.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,VTOI (tau=0.6),data-driven(RMS 3sigma),1632,1877,2448,,,,1,1.0,0.6998,-245.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis 3-sigma,data-driven(RMS 3sigma),1632,1630,2448,,,,1,0.9976,1.0,2.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.30, train-selected)",0.6,1355,2015,2259,0.3,0.75,1.25,1,1.0,0.2699,-660.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.6, a priori)",0.6,1355,2256,2259,0.3,0.75,1.25,1,1.0,0.0033,-901.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS 3-sigma,0.6,1355,13,2259,0.3,0.75,1.25,1,0.4025,1.0,1342.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis 3-sigma,0.6,1355,965,2259,0.3,0.75,1.25,1,0.6986,1.0,390.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS k-sigma (train-selected),0.6,1355,7,2259,0.3,0.75,1.25,1,0.4014,1.0,1348.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis k-sigma (train-selected),0.6,1355,483,2259,0.3,0.75,1.25,1,0.509,1.0,872.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,VTOI (tau=0.6),data-driven(RMS 3sigma),13,2256,2259,,,,1,1.0,0.0013,-2243.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis 3-sigma,data-driven(RMS 3sigma),13,965,2259,,,,1,1.0,0.5761,-952.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.6,1173,1946,1955,0.3,0.75,1.25,1,1.0,0.0115,-773.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.6, a priori)",0.6,1173,1946,1955,0.3,0.75,1.25,1,1.0,0.0115,-773.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS 3-sigma,0.6,1173,270,1955,0.3,0.75,1.25,1,0.4641,1.0,903.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis 3-sigma,0.6,1173,779,1955,0.3,0.75,1.25,1,0.665,1.0,394.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS k-sigma (train-selected),0.6,1173,264,1955,0.3,0.75,1.25,1,0.4624,1.0,909.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis k-sigma (train-selected),0.6,1173,266,1955,0.3,0.75,1.25,1,0.463,1.0,907.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,VTOI (tau=0.6),data-driven(RMS 3sigma),270,1946,1955,,,,1,1.0,0.0053,-1676.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),270,779,1955,,,,1,1.0,0.6979,-509.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.6,450,306,751,0.3,0.75,1.25,1,0.6764,1.0,144.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.6, a priori)",0.6,450,743,751,0.3,0.75,1.25,1,1.0,0.0266,-293.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS 3-sigma,0.6,450,390,751,0.3,0.75,1.25,1,0.8338,1.0,60.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis 3-sigma,0.6,450,269,751,0.3,0.75,1.25,1,0.6245,1.0,181.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS k-sigma (train-selected),0.6,450,60,751,0.3,0.75,1.25,1,0.4356,1.0,390.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis k-sigma (train-selected),0.6,450,9,751,0.3,0.75,1.25,1,0.4057,1.0,441.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,VTOI (tau=0.6),data-driven(RMS 3sigma),390,743,751,,,,1,1.0,0.0222,-353.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis 3-sigma,data-driven(RMS 3sigma),390,269,751,,,,1,0.749,1.0,121.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.6,1386,2268,2311,0.3,1.5,2.75,1,1.0,0.0465,-882.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.6, a priori)",0.6,1386,2268,2311,0.3,1.5,2.75,1,1.0,0.0465,-882.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS 3-sigma,0.6,1386,-1,2311,0.3,1.5,2.75,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis 3-sigma,0.6,1386,457,2311,0.3,1.5,2.75,1,0.4989,1.0,929.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS k-sigma (train-selected),0.6,1386,86,2311,0.3,1.5,2.75,1,0.4157,1.0,1300.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis k-sigma (train-selected),0.6,1386,457,2311,0.3,1.5,2.75,1,0.4989,1.0,929.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.30, train-selected)",0.6,420,687,701,0.3,1.5,3.25,1,1.0,0.0498,-267.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.6, a priori)",0.6,420,687,701,0.3,1.5,3.25,1,1.0,0.0498,-267.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS 3-sigma,0.6,420,687,701,0.3,1.5,3.25,1,1.0,0.0498,-267.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis 3-sigma,0.6,420,635,701,0.3,1.5,3.25,1,1.0,0.2349,-215.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS k-sigma (train-selected),0.6,420,687,701,0.3,1.5,3.25,1,1.0,0.0498,-267.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis k-sigma (train-selected),0.6,420,635,701,0.3,1.5,3.25,1,1.0,0.2349,-215.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,VTOI (tau=0.6),data-driven(RMS 3sigma),687,687,701,,,,1,1.0,1.0,0.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis 3-sigma,data-driven(RMS 3sigma),687,635,701,,,,1,0.2121,1.0,52.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.30, train-selected)",0.6,138,224,230,0.3,1.25,3.25,1,1.0,0.0652,-86.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.6, a priori)",0.6,138,225,230,0.3,1.25,3.25,1,1.0,0.0543,-87.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS 3-sigma,0.6,138,222,230,0.3,1.25,3.25,1,1.0,0.087,-84.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis 3-sigma,0.6,138,182,230,0.3,1.25,3.25,1,1.0,0.5217,-44.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS k-sigma (train-selected),0.6,138,221,230,0.3,1.25,3.25,1,1.0,0.0978,-83.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis k-sigma (train-selected),0.6,138,224,230,0.3,1.25,3.25,1,1.0,0.0652,-86.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,VTOI (tau=0.6),data-driven(RMS 3sigma),222,225,230,,,,1,1.0,0.625,-3.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis 3-sigma,data-driven(RMS 3sigma),222,182,230,,,,1,0.1667,1.0,40.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.6,260,321,434,0.3,0.75,1.25,1,1.0,0.6494,-61.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.6, a priori)",0.6,260,425,434,0.3,0.75,1.25,1,1.0,0.0517,-165.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS 3-sigma,0.6,260,318,434,0.3,0.75,1.25,1,1.0,0.6667,-58.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis 3-sigma,0.6,260,306,434,0.3,0.75,1.25,1,1.0,0.7356,-46.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS k-sigma (train-selected),0.6,260,10,434,0.3,0.75,1.25,1,0.4104,1.0,250.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis k-sigma (train-selected),0.6,260,304,434,0.3,0.75,1.25,1,1.0,0.7471,-44.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,VTOI (tau=0.6),data-driven(RMS 3sigma),318,425,434,,,,1,1.0,0.0776,-107.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),318,306,434,,,,1,0.9062,1.0,12.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.6,1681,1317,2803,0.3,0.75,1.25,1,0.755,1.0,364.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.6, a priori)",0.6,1681,2780,2803,0.3,0.75,1.25,1,1.0,0.0205,-1099.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS 3-sigma,0.6,1681,29,2803,0.3,0.75,1.25,1,0.4045,1.0,1652.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis 3-sigma,0.6,1681,1317,2803,0.3,0.75,1.25,1,0.755,1.0,364.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS k-sigma (train-selected),0.6,1681,0,2803,0.3,0.75,1.25,1,0.4003,1.0,1681.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis k-sigma (train-selected),0.6,1681,1317,2803,0.3,0.75,1.25,1,0.755,1.0,364.0
+PRONOSTIA,Learning_set_Bearing1_1,VTOI (tau=0.6),data-driven(RMS 3sigma),29,2780,2803,,,,1,1.0,0.0083,-2751.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),29,1317,2803,,,,1,1.0,0.5357,-1288.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.6,522,828,871,0.3,0.75,1.25,1,1.0,0.1232,-306.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.6, a priori)",0.6,522,-1,871,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing1_2,RMS 3-sigma,0.6,522,826,871,0.3,0.75,1.25,1,1.0,0.1289,-304.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis 3-sigma,0.6,522,520,871,0.3,0.75,1.25,1,0.9943,1.0,2.0
+PRONOSTIA,Learning_set_Bearing1_2,RMS k-sigma (train-selected),0.6,522,67,871,0.3,0.75,1.25,1,0.4341,1.0,455.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis k-sigma (train-selected),0.6,522,191,871,0.3,0.75,1.25,1,0.5132,1.0,331.0
+PRONOSTIA,Learning_set_Bearing1_2,VTOI (tau=0.6),data-driven(RMS 3sigma),826,-1,871,,,,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),826,520,871,,,,1,0.1282,1.0,306.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.6,546,836,911,0.3,0.75,1.25,1,1.0,0.2055,-290.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.6, a priori)",0.6,546,-1,911,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing2_1,RMS 3-sigma,0.6,546,212,911,0.3,0.75,1.25,1,0.5222,1.0,334.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis 3-sigma,0.6,546,835,911,0.3,0.75,1.25,1,1.0,0.2082,-289.0
+PRONOSTIA,Learning_set_Bearing2_1,RMS k-sigma (train-selected),0.6,546,149,911,0.3,0.75,1.25,1,0.479,1.0,397.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis k-sigma (train-selected),0.6,546,818,911,0.3,0.75,1.25,1,1.0,0.2548,-272.0
+PRONOSTIA,Learning_set_Bearing2_1,VTOI (tau=0.6),data-driven(RMS 3sigma),212,-1,911,,,,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),212,835,911,,,,1,1.0,0.1087,-623.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.6,478,194,797,0.3,1.0,2.75,1,0.529,1.0,284.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.6, a priori)",0.6,478,397,797,0.3,1.0,2.75,1,0.7975,1.0,81.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS 3-sigma,0.6,478,194,797,0.3,1.0,2.75,1,0.529,1.0,284.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis 3-sigma,0.6,478,187,797,0.3,1.0,2.75,1,0.523,1.0,291.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS k-sigma (train-selected),0.6,478,25,797,0.3,1.0,2.75,1,0.4132,1.0,453.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis k-sigma (train-selected),0.6,478,187,797,0.3,1.0,2.75,1,0.523,1.0,291.0
+PRONOSTIA,Learning_set_Bearing2_2,VTOI (tau=0.6),data-driven(RMS 3sigma),194,397,797,,,,1,1.0,0.6633,-203.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),194,187,797,,,,1,0.9885,1.0,7.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.6,309,493,515,0.3,1.0,2.75,1,1.0,0.1068,-184.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.6, a priori)",0.6,309,511,515,0.3,1.0,2.75,1,1.0,0.0194,-202.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS 3-sigma,0.6,309,493,515,0.3,1.0,2.75,1,1.0,0.1068,-184.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis 3-sigma,0.6,309,453,515,0.3,1.0,2.75,1,1.0,0.301,-144.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS k-sigma (train-selected),0.6,309,493,515,0.3,1.0,2.75,1,1.0,0.1068,-184.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis k-sigma (train-selected),0.6,309,453,515,0.3,1.0,2.75,1,1.0,0.301,-144.0
+PRONOSTIA,Learning_set_Bearing3_1,VTOI (tau=0.6),data-driven(RMS 3sigma),493,511,515,,,,1,1.0,0.1818,-18.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),493,453,515,,,,1,0.3548,1.0,40.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.6,982,1618,1637,0.3,0.75,2.75,1,1.0,0.029,-636.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.6, a priori)",0.6,982,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS 3-sigma,0.6,982,1596,1637,0.3,0.75,2.75,1,1.0,0.0626,-614.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis 3-sigma,0.6,982,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS k-sigma (train-selected),0.6,982,23,1637,0.3,0.75,2.75,1,0.4058,1.0,959.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis k-sigma (train-selected),0.6,982,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,VTOI (tau=0.6),data-driven(RMS 3sigma),1596,-1,1637,,,,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),1596,-1,1637,,,,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.6,73,77,123,0.3,2.0,0.75,1,1.0,0.92,-4.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.6, a priori)",0.6,73,83,123,0.3,2.0,0.75,1,1.0,0.8,-10.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS 3-sigma,0.6,73,70,123,0.3,2.0,0.75,1,0.9434,1.0,3.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis 3-sigma,0.6,73,74,123,0.3,2.0,0.75,1,1.0,0.98,-1.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS k-sigma (train-selected),0.6,73,64,123,0.3,2.0,0.75,1,0.8475,1.0,9.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis k-sigma (train-selected),0.6,73,16,123,0.3,2.0,0.75,1,0.4673,1.0,57.0
+XJTU-SY,35Hz12kN_Bearing1_1,VTOI (tau=0.6),data-driven(RMS 3sigma),70,83,123,,,,1,1.0,0.7547,-13.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),70,74,123,,,,1,1.0,0.9245,-4.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.6,96,42,161,0.3,2.0,1.25,1,0.5462,1.0,54.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.6, a priori)",0.6,96,59,161,0.3,2.0,1.25,1,0.6373,1.0,37.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS 3-sigma,0.6,96,31,161,0.3,2.0,1.25,1,0.5,1.0,65.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis 3-sigma,0.6,96,45,161,0.3,2.0,1.25,1,0.5603,1.0,51.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS k-sigma (train-selected),0.6,96,31,161,0.3,2.0,1.25,1,0.5,1.0,65.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis k-sigma (train-selected),0.6,96,0,161,0.3,2.0,1.25,1,0.4037,1.0,96.0
+XJTU-SY,35Hz12kN_Bearing1_2,VTOI (tau=0.6),data-driven(RMS 3sigma),31,59,161,,,,1,1.0,0.7846,-28.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),31,45,161,,,,1,1.0,0.8923,-14.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.6,94,71,158,0.3,2.0,0.75,1,0.7356,1.0,23.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.6, a priori)",0.6,94,115,158,0.3,2.0,0.75,1,1.0,0.6719,-21.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS 3-sigma,0.6,94,58,158,0.3,2.0,0.75,1,0.64,1.0,36.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis 3-sigma,0.6,94,60,158,0.3,2.0,0.75,1,0.6531,1.0,34.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS k-sigma (train-selected),0.6,94,58,158,0.3,2.0,0.75,1,0.64,1.0,36.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis k-sigma (train-selected),0.6,94,30,158,0.3,2.0,0.75,1,0.5,1.0,64.0
+XJTU-SY,35Hz12kN_Bearing1_3,VTOI (tau=0.6),data-driven(RMS 3sigma),58,115,158,,,,1,1.0,0.43,-57.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),58,60,158,,,,1,1.0,0.98,-2.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.6,73,85,122,0.3,2.0,1.25,1,1.0,0.7551,-12.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.6, a priori)",0.6,73,-1,122,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_4,RMS 3-sigma,0.6,73,83,122,0.3,2.0,1.25,1,1.0,0.7959,-10.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis 3-sigma,0.6,73,79,122,0.3,2.0,1.25,1,1.0,0.8776,-6.0
+XJTU-SY,35Hz12kN_Bearing1_4,RMS k-sigma (train-selected),0.6,73,80,122,0.3,2.0,1.25,1,1.0,0.8571,-7.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis k-sigma (train-selected),0.6,73,49,122,0.3,2.0,1.25,1,0.6712,1.0,24.0
+XJTU-SY,35Hz12kN_Bearing1_4,VTOI (tau=0.6),data-driven(RMS 3sigma),83,-1,122,,,,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis 3-sigma,data-driven(RMS 3sigma),83,79,122,,,,1,0.907,1.0,4.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.6,31,34,52,0.3,2.0,0.75,1,1.0,0.8571,-3.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.6, a priori)",0.6,31,39,52,0.3,2.0,0.75,1,1.0,0.619,-8.0
+XJTU-SY,35Hz12kN_Bearing1_5,RMS 3-sigma,0.6,31,26,52,0.3,2.0,0.75,1,0.8077,1.0,5.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis 3-sigma,0.6,31,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,RMS k-sigma (train-selected),0.6,31,25,52,0.3,2.0,0.75,1,0.7778,1.0,6.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis k-sigma (train-selected),0.6,31,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,VTOI (tau=0.6),data-driven(RMS 3sigma),26,39,52,,,,1,1.0,0.5,-13.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis 3-sigma,data-driven(RMS 3sigma),26,-1,52,,,,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.6,294,454,491,0.3,2.0,0.75,1,1.0,0.1878,-160.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.6, a priori)",0.6,294,454,491,0.3,2.0,0.75,1,1.0,0.1878,-160.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS 3-sigma,0.6,294,452,491,0.3,2.0,0.75,1,1.0,0.198,-158.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis 3-sigma,0.6,294,452,491,0.3,2.0,0.75,1,1.0,0.198,-158.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS k-sigma (train-selected),0.6,294,452,491,0.3,2.0,0.75,1,1.0,0.198,-158.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis k-sigma (train-selected),0.6,294,6,491,0.3,2.0,0.75,1,0.4062,1.0,288.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,VTOI (tau=0.6),data-driven(RMS 3sigma),452,454,491,,,,1,1.0,0.9487,-2.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),452,452,491,,,,1,1.0,1.0,0.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.6,96,48,161,0.3,2.0,1.25,1,0.5752,1.0,48.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.6, a priori)",0.6,96,62,161,0.3,2.0,1.25,1,0.6566,1.0,34.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS 3-sigma,0.6,96,46,161,0.3,2.0,1.25,1,0.5652,1.0,50.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis 3-sigma,0.6,96,47,161,0.3,2.0,1.25,1,0.5702,1.0,49.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS k-sigma (train-selected),0.6,96,46,161,0.3,2.0,1.25,1,0.5652,1.0,50.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis k-sigma (train-selected),0.6,96,47,161,0.3,2.0,1.25,1,0.5702,1.0,49.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,VTOI (tau=0.6),data-driven(RMS 3sigma),46,62,161,,,,1,1.0,0.8609,-16.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),46,47,161,,,,1,1.0,0.9913,-1.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.6,319,130,533,0.3,2.0,1.25,1,0.531,1.0,189.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.6, a priori)",0.6,319,326,533,0.3,2.0,1.25,1,1.0,0.9673,-7.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS 3-sigma,0.6,319,127,533,0.3,2.0,1.25,1,0.5271,1.0,192.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis 3-sigma,0.6,319,126,533,0.3,2.0,1.25,1,0.5258,1.0,193.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS k-sigma (train-selected),0.6,319,127,533,0.3,2.0,1.25,1,0.5271,1.0,192.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis k-sigma (train-selected),0.6,319,120,533,0.3,2.0,1.25,1,0.5182,1.0,199.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,VTOI (tau=0.6),data-driven(RMS 3sigma),127,326,533,,,,1,1.0,0.5099,-199.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),127,126,533,,,,1,0.9975,1.0,1.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.6,25,30,42,0.3,2.0,1.25,1,1.0,0.7059,-5.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.6, a priori)",0.6,25,31,42,0.3,2.0,1.25,1,1.0,0.6471,-6.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS 3-sigma,0.6,25,10,42,0.3,2.0,1.25,1,0.5312,1.0,15.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis 3-sigma,0.6,25,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS k-sigma (train-selected),0.6,25,9,42,0.3,2.0,1.25,1,0.5152,1.0,16.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis k-sigma (train-selected),0.6,25,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,VTOI (tau=0.6),data-driven(RMS 3sigma),10,31,42,,,,1,1.0,0.3438,-21.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis 3-sigma,data-driven(RMS 3sigma),10,-1,42,,,,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.6,203,164,339,0.3,2.0,1.25,1,0.7771,1.0,39.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.6, a priori)",0.6,203,193,339,0.3,2.0,1.25,1,0.9315,1.0,10.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS 3-sigma,0.6,203,136,339,0.3,2.0,1.25,1,0.67,1.0,67.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis 3-sigma,0.6,203,-1,339,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS k-sigma (train-selected),0.6,203,121,339,0.3,2.0,1.25,1,0.6239,1.0,82.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis k-sigma (train-selected),0.6,203,18,339,0.3,2.0,1.25,1,0.4237,1.0,185.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,VTOI (tau=0.6),data-driven(RMS 3sigma),136,193,339,,,,1,1.0,0.7192,-57.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis 3-sigma,data-driven(RMS 3sigma),136,-1,339,,,,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.6,1522,2391,2538,0.3,2.0,1.25,1,1.0,0.1447,-869.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.6, a priori)",0.6,1522,2438,2538,0.3,2.0,1.25,1,1.0,0.0984,-916.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS 3-sigma,0.6,1522,2340,2538,0.3,2.0,1.25,1,1.0,0.1949,-818.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis 3-sigma,0.6,1522,2493,2538,0.3,2.0,1.25,1,1.0,0.0443,-971.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS k-sigma (train-selected),0.6,1522,24,2538,0.3,2.0,1.25,1,0.4041,1.0,1498.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis k-sigma (train-selected),0.6,1522,8,2538,0.3,2.0,1.25,1,0.4016,1.0,1514.0
+XJTU-SY,40Hz10kN_Bearing3_1,VTOI (tau=0.6),data-driven(RMS 3sigma),2340,2438,2538,,,,1,1.0,0.5051,-98.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis 3-sigma,data-driven(RMS 3sigma),2340,2493,2538,,,,1,1.0,0.2273,-153.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.6,1497,2064,2496,0.3,2.0,1.5,1,1.0,0.4324,-567.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.6, a priori)",0.6,1497,2479,2496,0.3,2.0,1.5,1,1.0,0.017,-982.0
+XJTU-SY,40Hz10kN_Bearing3_2,RMS 3-sigma,0.6,1497,1441,2496,0.3,2.0,1.5,1,0.9469,1.0,56.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis 3-sigma,0.6,1497,-1,2496,0.3,2.0,1.5,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_2,RMS k-sigma (train-selected),0.6,1497,1231,2496,0.3,2.0,1.5,1,0.7897,1.0,266.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis k-sigma (train-selected),0.6,1497,11,2496,0.3,2.0,1.5,1,0.402,1.0,1486.0
+XJTU-SY,40Hz10kN_Bearing3_2,VTOI (tau=0.6),data-driven(RMS 3sigma),1441,2479,2496,,,,1,1.0,0.0161,-1038.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis 3-sigma,data-driven(RMS 3sigma),1441,-1,2496,,,,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.6,222,340,371,0.3,4.0,1.5,1,1.0,0.2081,-118.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.6, a priori)",0.6,222,343,371,0.3,4.0,1.5,1,1.0,0.1879,-121.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS 3-sigma,0.6,222,341,371,0.3,4.0,1.5,1,1.0,0.2013,-119.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis 3-sigma,0.6,222,339,371,0.3,4.0,1.5,1,1.0,0.2148,-117.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS k-sigma (train-selected),0.6,222,341,371,0.3,4.0,1.5,1,1.0,0.2013,-119.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis k-sigma (train-selected),0.6,222,339,371,0.3,4.0,1.5,1,1.0,0.2148,-117.0
+XJTU-SY,40Hz10kN_Bearing3_3,VTOI (tau=0.6),data-driven(RMS 3sigma),341,343,371,,,,1,1.0,0.9333,-2.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis 3-sigma,data-driven(RMS 3sigma),341,339,371,,,,1,0.9375,1.0,2.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.30, train-selected)",0.6,909,1417,1515,0.3,2.0,1.25,1,1.0,0.1617,-508.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.6, a priori)",0.6,909,1438,1515,0.3,2.0,1.25,1,1.0,0.1271,-529.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS 3-sigma,0.6,909,1417,1515,0.3,2.0,1.25,1,1.0,0.1617,-508.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis 3-sigma,0.6,909,1417,1515,0.3,2.0,1.25,1,1.0,0.1617,-508.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS k-sigma (train-selected),0.6,909,1012,1515,0.3,2.0,1.25,1,1.0,0.83,-103.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis k-sigma (train-selected),0.6,909,0,1515,0.3,2.0,1.25,1,0.4,1.0,909.0
+XJTU-SY,40Hz10kN_Bearing3_4,VTOI (tau=0.6),data-driven(RMS 3sigma),1417,1438,1515,,,,1,1.0,0.7857,-21.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis 3-sigma,data-driven(RMS 3sigma),1417,1417,1515,,,,1,1.0,1.0,0.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.30, train-selected)",0.6,68,73,114,0.3,2.0,1.25,1,1.0,0.8913,-5.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.6, a priori)",0.6,68,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS 3-sigma,0.6,68,32,114,0.3,2.0,1.25,1,0.561,1.0,36.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis 3-sigma,0.6,68,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS k-sigma (train-selected),0.6,68,29,114,0.3,2.0,1.25,1,0.5412,1.0,39.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis k-sigma (train-selected),0.6,68,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,VTOI (tau=0.6),data-driven(RMS 3sigma),32,-1,114,,,,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis 3-sigma,data-driven(RMS 3sigma),32,-1,114,,,,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.5,1187,871,2375,0.3,0.75,1.25,1,0.7899,1.0,316.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.6, a priori)",0.5,1187,1641,2375,0.3,0.75,1.25,1,1.0,0.6178,-454.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS 3-sigma,0.5,1187,1427,2375,0.3,0.75,1.25,1,1.0,0.798,-240.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis 3-sigma,0.5,1187,35,2375,0.3,0.75,1.25,1,0.5077,1.0,1152.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS k-sigma (train-selected),0.5,1187,77,2375,0.3,0.75,1.25,1,0.517,1.0,1110.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis k-sigma (train-selected),0.5,1187,35,2375,0.3,0.75,1.25,1,0.5077,1.0,1152.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.7,1662,871,2375,0.3,0.75,1.25,1,0.4741,1.0,791.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.6, a priori)",0.7,1662,1641,2375,0.3,0.75,1.25,1,0.9714,1.0,21.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS 3-sigma,0.7,1662,1427,2375,0.3,0.75,1.25,1,0.7521,1.0,235.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis 3-sigma,0.7,1662,35,2375,0.3,0.75,1.25,1,0.3047,1.0,1627.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS k-sigma (train-selected),0.7,1662,77,2375,0.3,0.75,1.25,1,0.3103,1.0,1585.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis k-sigma (train-selected),0.7,1662,35,2375,0.3,0.75,1.25,1,0.3047,1.0,1627.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.8,1900,871,2375,0.3,0.75,1.25,1,0.3158,1.0,1029.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,"VTOI (tau=0.6, a priori)",0.8,1900,1641,2375,0.3,0.75,1.25,1,0.6471,1.0,259.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS 3-sigma,0.8,1900,1427,2375,0.3,0.75,1.25,1,0.5011,1.0,473.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis 3-sigma,0.8,1900,35,2375,0.3,0.75,1.25,1,0.203,1.0,1865.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,RMS k-sigma (train-selected),0.8,1900,77,2375,0.3,0.75,1.25,1,0.2067,1.0,1823.0
+PRONOSTIA,Full_Test_Set_Bearing1_3,Kurtosis k-sigma (train-selected),0.8,1900,35,2375,0.3,0.75,1.25,1,0.203,1.0,1865.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.5,714,1082,1428,0.3,0.75,1.25,1,1.0,0.4846,-368.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.6, a priori)",0.5,714,1088,1428,0.3,0.75,1.25,1,1.0,0.4762,-374.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS 3-sigma,0.5,714,1086,1428,0.3,0.75,1.25,1,1.0,0.479,-372.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis 3-sigma,0.5,714,1079,1428,0.3,0.75,1.25,1,1.0,0.4888,-365.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS k-sigma (train-selected),0.5,714,51,1428,0.3,0.75,1.25,1,0.5185,1.0,663.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis k-sigma (train-selected),0.5,714,1079,1428,0.3,0.75,1.25,1,1.0,0.4888,-365.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.7,999,1082,1428,0.3,0.75,1.25,1,1.0,0.8065,-83.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.6, a priori)",0.7,999,1088,1428,0.3,0.75,1.25,1,1.0,0.7925,-89.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS 3-sigma,0.7,999,1086,1428,0.3,0.75,1.25,1,1.0,0.7972,-87.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis 3-sigma,0.7,999,1079,1428,0.3,0.75,1.25,1,1.0,0.8135,-80.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS k-sigma (train-selected),0.7,999,51,1428,0.3,0.75,1.25,1,0.3115,1.0,948.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis k-sigma (train-selected),0.7,999,1079,1428,0.3,0.75,1.25,1,1.0,0.8135,-80.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.8,1142,1082,1428,0.3,0.75,1.25,1,0.8266,1.0,60.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,"VTOI (tau=0.6, a priori)",0.8,1142,1088,1428,0.3,0.75,1.25,1,0.8412,1.0,54.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS 3-sigma,0.8,1142,1086,1428,0.3,0.75,1.25,1,0.8363,1.0,56.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis 3-sigma,0.8,1142,1079,1428,0.3,0.75,1.25,1,0.8195,1.0,63.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,RMS k-sigma (train-selected),0.8,1142,51,1428,0.3,0.75,1.25,1,0.2077,1.0,1091.0
+PRONOSTIA,Full_Test_Set_Bearing1_4,Kurtosis k-sigma (train-selected),0.8,1142,1079,1428,0.3,0.75,1.25,1,0.8195,1.0,63.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.5,1231,2411,2463,0.3,0.75,1.25,1,1.0,0.0422,-1180.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.6, a priori)",0.5,1231,-1,2463,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS 3-sigma,0.5,1231,2411,2463,0.3,0.75,1.25,1,1.0,0.0422,-1180.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis 3-sigma,0.5,1231,2411,2463,0.3,0.75,1.25,1,1.0,0.0422,-1180.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS k-sigma (train-selected),0.5,1231,78,2463,0.3,0.75,1.25,1,0.5166,1.0,1153.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis k-sigma (train-selected),0.5,1231,2411,2463,0.3,0.75,1.25,1,1.0,0.0422,-1180.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.7,1724,2411,2463,0.3,0.75,1.25,1,1.0,0.0704,-687.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.6, a priori)",0.7,1724,-1,2463,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS 3-sigma,0.7,1724,2411,2463,0.3,0.75,1.25,1,1.0,0.0704,-687.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis 3-sigma,0.7,1724,2411,2463,0.3,0.75,1.25,1,1.0,0.0704,-687.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS k-sigma (train-selected),0.7,1724,78,2463,0.3,0.75,1.25,1,0.3099,1.0,1646.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis k-sigma (train-selected),0.7,1724,2411,2463,0.3,0.75,1.25,1,1.0,0.0704,-687.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.8,1970,2411,2463,0.3,0.75,1.25,1,1.0,0.1055,-441.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,"VTOI (tau=0.6, a priori)",0.8,1970,-1,2463,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS 3-sigma,0.8,1970,2411,2463,0.3,0.75,1.25,1,1.0,0.1055,-441.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis 3-sigma,0.8,1970,2411,2463,0.3,0.75,1.25,1,1.0,0.1055,-441.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,RMS k-sigma (train-selected),0.8,1970,78,2463,0.3,0.75,1.25,1,0.2067,1.0,1892.0
+PRONOSTIA,Full_Test_Set_Bearing1_5,Kurtosis k-sigma (train-selected),0.8,1970,2411,2463,0.3,0.75,1.25,1,1.0,0.1055,-441.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.30, train-selected)",0.5,1224,1630,2448,0.3,0.75,1.25,1,1.0,0.6683,-406.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.6, a priori)",0.5,1224,1877,2448,0.3,0.75,1.25,1,1.0,0.4665,-653.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS 3-sigma,0.5,1224,1632,2448,0.3,0.75,1.25,1,1.0,0.6667,-408.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis 3-sigma,0.5,1224,1630,2448,0.3,0.75,1.25,1,1.0,0.6683,-406.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS k-sigma (train-selected),0.5,1224,28,2448,0.3,0.75,1.25,1,0.5058,1.0,1196.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis k-sigma (train-selected),0.5,1224,487,2448,0.3,0.75,1.25,1,0.6242,1.0,737.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.30, train-selected)",0.7,1713,1630,2448,0.3,0.75,1.25,1,0.8985,1.0,83.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.6, a priori)",0.7,1713,1877,2448,0.3,0.75,1.25,1,1.0,0.7769,-164.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS 3-sigma,0.7,1713,1632,2448,0.3,0.75,1.25,1,0.9007,1.0,81.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis 3-sigma,0.7,1713,1630,2448,0.3,0.75,1.25,1,0.8985,1.0,83.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS k-sigma (train-selected),0.7,1713,28,2448,0.3,0.75,1.25,1,0.3037,1.0,1685.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis k-sigma (train-selected),0.7,1713,487,2448,0.3,0.75,1.25,1,0.3748,1.0,1226.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.30, train-selected)",0.8,1958,1630,2448,0.3,0.75,1.25,1,0.599,1.0,328.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,"VTOI (tau=0.6, a priori)",0.8,1958,1877,2448,0.3,0.75,1.25,1,0.8581,1.0,81.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS 3-sigma,0.8,1958,1632,2448,0.3,0.75,1.25,1,0.6005,1.0,326.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis 3-sigma,0.8,1958,1630,2448,0.3,0.75,1.25,1,0.599,1.0,328.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,RMS k-sigma (train-selected),0.8,1958,28,2448,0.3,0.75,1.25,1,0.2025,1.0,1930.0
+PRONOSTIA,Full_Test_Set_Bearing1_6,Kurtosis k-sigma (train-selected),0.8,1958,487,2448,0.3,0.75,1.25,1,0.2499,1.0,1471.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.30, train-selected)",0.5,1129,2015,2259,0.3,0.75,1.25,1,1.0,0.2159,-886.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.6, a priori)",0.5,1129,2256,2259,0.3,0.75,1.25,1,1.0,0.0027,-1127.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS 3-sigma,0.5,1129,13,2259,0.3,0.75,1.25,1,0.5031,1.0,1116.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis 3-sigma,0.5,1129,965,2259,0.3,0.75,1.25,1,0.8733,1.0,164.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS k-sigma (train-selected),0.5,1129,7,2259,0.3,0.75,1.25,1,0.5018,1.0,1122.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis k-sigma (train-selected),0.5,1129,483,2259,0.3,0.75,1.25,1,0.6363,1.0,646.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.30, train-selected)",0.7,1581,2015,2259,0.3,0.75,1.25,1,1.0,0.3599,-434.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.6, a priori)",0.7,1581,2256,2259,0.3,0.75,1.25,1,1.0,0.0044,-675.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS 3-sigma,0.7,1581,13,2259,0.3,0.75,1.25,1,0.3019,1.0,1568.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis 3-sigma,0.7,1581,965,2259,0.3,0.75,1.25,1,0.524,1.0,616.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS k-sigma (train-selected),0.7,1581,7,2259,0.3,0.75,1.25,1,0.3011,1.0,1574.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis k-sigma (train-selected),0.7,1581,483,2259,0.3,0.75,1.25,1,0.3818,1.0,1098.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.30, train-selected)",0.8,1807,2015,2259,0.3,0.75,1.25,1,1.0,0.5398,-208.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,"VTOI (tau=0.6, a priori)",0.8,1807,2256,2259,0.3,0.75,1.25,1,1.0,0.0066,-449.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS 3-sigma,0.8,1807,13,2259,0.3,0.75,1.25,1,0.2012,1.0,1794.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis 3-sigma,0.8,1807,965,2259,0.3,0.75,1.25,1,0.3493,1.0,842.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,RMS k-sigma (train-selected),0.8,1807,7,2259,0.3,0.75,1.25,1,0.2007,1.0,1800.0
+PRONOSTIA,Full_Test_Set_Bearing1_7,Kurtosis k-sigma (train-selected),0.8,1807,483,2259,0.3,0.75,1.25,1,0.2545,1.0,1324.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.5,977,1946,1955,0.3,0.75,1.25,1,1.0,0.0092,-969.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.6, a priori)",0.5,977,1946,1955,0.3,0.75,1.25,1,1.0,0.0092,-969.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS 3-sigma,0.5,977,270,1955,0.3,0.75,1.25,1,0.5804,1.0,707.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis 3-sigma,0.5,977,779,1955,0.3,0.75,1.25,1,0.8316,1.0,198.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS k-sigma (train-selected),0.5,977,264,1955,0.3,0.75,1.25,1,0.5784,1.0,713.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis k-sigma (train-selected),0.5,977,266,1955,0.3,0.75,1.25,1,0.579,1.0,711.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.7,1368,1946,1955,0.3,0.75,1.25,1,1.0,0.0153,-578.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.6, a priori)",0.7,1368,1946,1955,0.3,0.75,1.25,1,1.0,0.0153,-578.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS 3-sigma,0.7,1368,270,1955,0.3,0.75,1.25,1,0.3484,1.0,1098.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis 3-sigma,0.7,1368,779,1955,0.3,0.75,1.25,1,0.4991,1.0,589.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS k-sigma (train-selected),0.7,1368,264,1955,0.3,0.75,1.25,1,0.3471,1.0,1104.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis k-sigma (train-selected),0.7,1368,266,1955,0.3,0.75,1.25,1,0.3475,1.0,1102.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.8,1564,1946,1955,0.3,0.75,1.25,1,1.0,0.023,-382.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,"VTOI (tau=0.6, a priori)",0.8,1564,1946,1955,0.3,0.75,1.25,1,1.0,0.023,-382.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS 3-sigma,0.8,1564,270,1955,0.3,0.75,1.25,1,0.232,1.0,1294.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis 3-sigma,0.8,1564,779,1955,0.3,0.75,1.25,1,0.3325,1.0,785.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,RMS k-sigma (train-selected),0.8,1564,264,1955,0.3,0.75,1.25,1,0.2312,1.0,1300.0
+PRONOSTIA,Full_Test_Set_Bearing2_3,Kurtosis k-sigma (train-selected),0.8,1564,266,1955,0.3,0.75,1.25,1,0.2315,1.0,1298.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.5,375,306,751,0.3,0.75,1.25,1,0.8449,1.0,69.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.6, a priori)",0.5,375,743,751,0.3,0.75,1.25,1,1.0,0.0213,-368.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS 3-sigma,0.5,375,390,751,0.3,0.75,1.25,1,1.0,0.9601,-15.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis 3-sigma,0.5,375,269,751,0.3,0.75,1.25,1,0.7801,1.0,106.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS k-sigma (train-selected),0.5,375,60,751,0.3,0.75,1.25,1,0.5441,1.0,315.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis k-sigma (train-selected),0.5,375,9,751,0.3,0.75,1.25,1,0.5067,1.0,366.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.7,525,306,751,0.3,0.75,1.25,1,0.5079,1.0,219.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.6, a priori)",0.7,525,743,751,0.3,0.75,1.25,1,1.0,0.0354,-218.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS 3-sigma,0.7,525,390,751,0.3,0.75,1.25,1,0.626,1.0,135.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis 3-sigma,0.7,525,269,751,0.3,0.75,1.25,1,0.4689,1.0,256.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS k-sigma (train-selected),0.7,525,60,751,0.3,0.75,1.25,1,0.3271,1.0,465.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis k-sigma (train-selected),0.7,525,9,751,0.3,0.75,1.25,1,0.3046,1.0,516.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.8,600,306,751,0.3,0.75,1.25,1,0.3393,1.0,294.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,"VTOI (tau=0.6, a priori)",0.8,600,743,751,0.3,0.75,1.25,1,1.0,0.053,-143.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS 3-sigma,0.8,600,390,751,0.3,0.75,1.25,1,0.4183,1.0,210.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis 3-sigma,0.8,600,269,751,0.3,0.75,1.25,1,0.3133,1.0,331.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,RMS k-sigma (train-selected),0.8,600,60,751,0.3,0.75,1.25,1,0.2185,1.0,540.0
+PRONOSTIA,Full_Test_Set_Bearing2_4,Kurtosis k-sigma (train-selected),0.8,600,9,751,0.3,0.75,1.25,1,0.2035,1.0,591.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.5,1155,2268,2311,0.3,1.5,2.75,1,1.0,0.0372,-1113.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.6, a priori)",0.5,1155,2268,2311,0.3,1.5,2.75,1,1.0,0.0372,-1113.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS 3-sigma,0.5,1155,-1,2311,0.3,1.5,2.75,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis 3-sigma,0.5,1155,457,2311,0.3,1.5,2.75,1,0.6235,1.0,698.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS k-sigma (train-selected),0.5,1155,86,2311,0.3,1.5,2.75,1,0.5196,1.0,1069.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis k-sigma (train-selected),0.5,1155,457,2311,0.3,1.5,2.75,1,0.6235,1.0,698.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.7,1617,2268,2311,0.3,1.5,2.75,1,1.0,0.062,-651.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.6, a priori)",0.7,1617,2268,2311,0.3,1.5,2.75,1,1.0,0.062,-651.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS 3-sigma,0.7,1617,-1,2311,0.3,1.5,2.75,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis 3-sigma,0.7,1617,457,2311,0.3,1.5,2.75,1,0.3743,1.0,1160.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS k-sigma (train-selected),0.7,1617,86,2311,0.3,1.5,2.75,1,0.3119,1.0,1531.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis k-sigma (train-selected),0.7,1617,457,2311,0.3,1.5,2.75,1,0.3743,1.0,1160.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.8,1848,2268,2311,0.3,1.5,2.75,1,1.0,0.0929,-420.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,"VTOI (tau=0.6, a priori)",0.8,1848,2268,2311,0.3,1.5,2.75,1,1.0,0.0929,-420.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS 3-sigma,0.8,1848,-1,2311,0.3,1.5,2.75,0,0.0,0.0,
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis 3-sigma,0.8,1848,457,2311,0.3,1.5,2.75,1,0.2497,1.0,1391.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,RMS k-sigma (train-selected),0.8,1848,86,2311,0.3,1.5,2.75,1,0.2081,1.0,1762.0
+PRONOSTIA,Full_Test_Set_Bearing2_5,Kurtosis k-sigma (train-selected),0.8,1848,457,2311,0.3,1.5,2.75,1,0.2497,1.0,1391.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.30, train-selected)",0.5,350,687,701,0.3,1.5,3.25,1,1.0,0.0399,-337.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.6, a priori)",0.5,350,687,701,0.3,1.5,3.25,1,1.0,0.0399,-337.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS 3-sigma,0.5,350,687,701,0.3,1.5,3.25,1,1.0,0.0399,-337.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis 3-sigma,0.5,350,635,701,0.3,1.5,3.25,1,1.0,0.188,-285.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS k-sigma (train-selected),0.5,350,687,701,0.3,1.5,3.25,1,1.0,0.0399,-337.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis k-sigma (train-selected),0.5,350,635,701,0.3,1.5,3.25,1,1.0,0.188,-285.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.30, train-selected)",0.7,490,687,701,0.3,1.5,3.25,1,1.0,0.0664,-197.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.6, a priori)",0.7,490,687,701,0.3,1.5,3.25,1,1.0,0.0664,-197.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS 3-sigma,0.7,490,687,701,0.3,1.5,3.25,1,1.0,0.0664,-197.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis 3-sigma,0.7,490,635,701,0.3,1.5,3.25,1,1.0,0.3128,-145.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS k-sigma (train-selected),0.7,490,687,701,0.3,1.5,3.25,1,1.0,0.0664,-197.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis k-sigma (train-selected),0.7,490,635,701,0.3,1.5,3.25,1,1.0,0.3128,-145.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.30, train-selected)",0.8,560,687,701,0.3,1.5,3.25,1,1.0,0.0993,-127.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,"VTOI (tau=0.6, a priori)",0.8,560,687,701,0.3,1.5,3.25,1,1.0,0.0993,-127.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS 3-sigma,0.8,560,687,701,0.3,1.5,3.25,1,1.0,0.0993,-127.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis 3-sigma,0.8,560,635,701,0.3,1.5,3.25,1,1.0,0.4681,-75.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,RMS k-sigma (train-selected),0.8,560,687,701,0.3,1.5,3.25,1,1.0,0.0993,-127.0
+PRONOSTIA,Full_Test_Set_Bearing2_6,Kurtosis k-sigma (train-selected),0.8,560,635,701,0.3,1.5,3.25,1,1.0,0.4681,-75.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.30, train-selected)",0.5,115,224,230,0.3,1.25,3.25,1,1.0,0.0522,-109.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.6, a priori)",0.5,115,225,230,0.3,1.25,3.25,1,1.0,0.0435,-110.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS 3-sigma,0.5,115,222,230,0.3,1.25,3.25,1,1.0,0.0696,-107.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis 3-sigma,0.5,115,182,230,0.3,1.25,3.25,1,1.0,0.4174,-67.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS k-sigma (train-selected),0.5,115,221,230,0.3,1.25,3.25,1,1.0,0.0783,-106.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis k-sigma (train-selected),0.5,115,224,230,0.3,1.25,3.25,1,1.0,0.0522,-109.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.30, train-selected)",0.7,161,224,230,0.3,1.25,3.25,1,1.0,0.087,-63.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.6, a priori)",0.7,161,225,230,0.3,1.25,3.25,1,1.0,0.0725,-64.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS 3-sigma,0.7,161,222,230,0.3,1.25,3.25,1,1.0,0.1159,-61.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis 3-sigma,0.7,161,182,230,0.3,1.25,3.25,1,1.0,0.6957,-21.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS k-sigma (train-selected),0.7,161,221,230,0.3,1.25,3.25,1,1.0,0.1304,-60.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis k-sigma (train-selected),0.7,161,224,230,0.3,1.25,3.25,1,1.0,0.087,-63.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.30, train-selected)",0.8,184,224,230,0.3,1.25,3.25,1,1.0,0.1304,-40.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,"VTOI (tau=0.6, a priori)",0.8,184,225,230,0.3,1.25,3.25,1,1.0,0.1087,-41.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS 3-sigma,0.8,184,222,230,0.3,1.25,3.25,1,1.0,0.1739,-38.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis 3-sigma,0.8,184,182,230,0.3,1.25,3.25,1,0.9583,1.0,2.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,RMS k-sigma (train-selected),0.8,184,221,230,0.3,1.25,3.25,1,1.0,0.1957,-37.0
+PRONOSTIA,Full_Test_Set_Bearing2_7,Kurtosis k-sigma (train-selected),0.8,184,224,230,0.3,1.25,3.25,1,1.0,0.1304,-40.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.5,217,321,434,0.3,0.75,1.25,1,1.0,0.5207,-104.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.6, a priori)",0.5,217,425,434,0.3,0.75,1.25,1,1.0,0.0415,-208.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS 3-sigma,0.5,217,318,434,0.3,0.75,1.25,1,1.0,0.5346,-101.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis 3-sigma,0.5,217,306,434,0.3,0.75,1.25,1,1.0,0.5899,-89.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS k-sigma (train-selected),0.5,217,10,434,0.3,0.75,1.25,1,0.5118,1.0,207.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis k-sigma (train-selected),0.5,217,304,434,0.3,0.75,1.25,1,1.0,0.5991,-87.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.7,303,321,434,0.3,0.75,1.25,1,1.0,0.8626,-18.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.6, a priori)",0.7,303,425,434,0.3,0.75,1.25,1,1.0,0.0687,-122.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS 3-sigma,0.7,303,318,434,0.3,0.75,1.25,1,1.0,0.8855,-15.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis 3-sigma,0.7,303,306,434,0.3,0.75,1.25,1,1.0,0.9771,-3.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS k-sigma (train-selected),0.7,303,10,434,0.3,0.75,1.25,1,0.309,1.0,293.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis k-sigma (train-selected),0.7,303,304,434,0.3,0.75,1.25,1,1.0,0.9924,-1.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.8,347,321,434,0.3,0.75,1.25,1,0.7699,1.0,26.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,"VTOI (tau=0.6, a priori)",0.8,347,425,434,0.3,0.75,1.25,1,1.0,0.1034,-78.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS 3-sigma,0.8,347,318,434,0.3,0.75,1.25,1,0.75,1.0,29.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis 3-sigma,0.8,347,306,434,0.3,0.75,1.25,1,0.6797,1.0,41.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,RMS k-sigma (train-selected),0.8,347,10,434,0.3,0.75,1.25,1,0.2052,1.0,337.0
+PRONOSTIA,Full_Test_Set_Bearing3_3,Kurtosis k-sigma (train-selected),0.8,347,304,434,0.3,0.75,1.25,1,0.6692,1.0,43.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.5,1401,1317,2803,0.3,0.75,1.25,1,0.9435,1.0,84.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.6, a priori)",0.5,1401,2780,2803,0.3,0.75,1.25,1,1.0,0.0164,-1379.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS 3-sigma,0.5,1401,29,2803,0.3,0.75,1.25,1,0.5054,1.0,1372.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis 3-sigma,0.5,1401,1317,2803,0.3,0.75,1.25,1,0.9435,1.0,84.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS k-sigma (train-selected),0.5,1401,0,2803,0.3,0.75,1.25,1,0.5002,1.0,1401.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis k-sigma (train-selected),0.5,1401,1317,2803,0.3,0.75,1.25,1,0.9435,1.0,84.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.7,1962,1317,2803,0.3,0.75,1.25,1,0.5659,1.0,645.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.6, a priori)",0.7,1962,2780,2803,0.3,0.75,1.25,1,1.0,0.0273,-818.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS 3-sigma,0.7,1962,29,2803,0.3,0.75,1.25,1,0.3032,1.0,1933.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis 3-sigma,0.7,1962,1317,2803,0.3,0.75,1.25,1,0.5659,1.0,645.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS k-sigma (train-selected),0.7,1962,0,2803,0.3,0.75,1.25,1,0.3,1.0,1962.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis k-sigma (train-selected),0.7,1962,1317,2803,0.3,0.75,1.25,1,0.5659,1.0,645.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.8,2242,1317,2803,0.3,0.75,1.25,1,0.3775,1.0,925.0
+PRONOSTIA,Learning_set_Bearing1_1,"VTOI (tau=0.6, a priori)",0.8,2242,2780,2803,0.3,0.75,1.25,1,1.0,0.041,-538.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS 3-sigma,0.8,2242,29,2803,0.3,0.75,1.25,1,0.2022,1.0,2213.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis 3-sigma,0.8,2242,1317,2803,0.3,0.75,1.25,1,0.3775,1.0,925.0
+PRONOSTIA,Learning_set_Bearing1_1,RMS k-sigma (train-selected),0.8,2242,0,2803,0.3,0.75,1.25,1,0.2001,1.0,2242.0
+PRONOSTIA,Learning_set_Bearing1_1,Kurtosis k-sigma (train-selected),0.8,2242,1317,2803,0.3,0.75,1.25,1,0.3775,1.0,925.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.5,435,828,871,0.3,0.75,1.25,1,1.0,0.0986,-393.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.6, a priori)",0.5,435,-1,871,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing1_2,RMS 3-sigma,0.5,435,826,871,0.3,0.75,1.25,1,1.0,0.1032,-391.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis 3-sigma,0.5,435,520,871,0.3,0.75,1.25,1,1.0,0.805,-85.0
+PRONOSTIA,Learning_set_Bearing1_2,RMS k-sigma (train-selected),0.5,435,67,871,0.3,0.75,1.25,1,0.5423,1.0,368.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis k-sigma (train-selected),0.5,435,191,871,0.3,0.75,1.25,1,0.6412,1.0,244.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.7,609,828,871,0.3,0.75,1.25,1,1.0,0.1641,-219.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.6, a priori)",0.7,609,-1,871,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing1_2,RMS 3-sigma,0.7,609,826,871,0.3,0.75,1.25,1,1.0,0.1718,-217.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis 3-sigma,0.7,609,520,871,0.3,0.75,1.25,1,0.7464,1.0,89.0
+PRONOSTIA,Learning_set_Bearing1_2,RMS k-sigma (train-selected),0.7,609,67,871,0.3,0.75,1.25,1,0.3259,1.0,542.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis k-sigma (train-selected),0.7,609,191,871,0.3,0.75,1.25,1,0.3853,1.0,418.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.8,696,828,871,0.3,0.75,1.25,1,1.0,0.2457,-132.0
+PRONOSTIA,Learning_set_Bearing1_2,"VTOI (tau=0.6, a priori)",0.8,696,-1,871,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing1_2,RMS 3-sigma,0.8,696,826,871,0.3,0.75,1.25,1,1.0,0.2571,-130.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis 3-sigma,0.8,696,520,871,0.3,0.75,1.25,1,0.4986,1.0,176.0
+PRONOSTIA,Learning_set_Bearing1_2,RMS k-sigma (train-selected),0.8,696,67,871,0.3,0.75,1.25,1,0.2177,1.0,629.0
+PRONOSTIA,Learning_set_Bearing1_2,Kurtosis k-sigma (train-selected),0.8,696,191,871,0.3,0.75,1.25,1,0.2574,1.0,505.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.5,455,836,911,0.3,0.75,1.25,1,1.0,0.1645,-381.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.6, a priori)",0.5,455,-1,911,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing2_1,RMS 3-sigma,0.5,455,212,911,0.3,0.75,1.25,1,0.6524,1.0,243.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis 3-sigma,0.5,455,835,911,0.3,0.75,1.25,1,1.0,0.1667,-380.0
+PRONOSTIA,Learning_set_Bearing2_1,RMS k-sigma (train-selected),0.5,455,149,911,0.3,0.75,1.25,1,0.5984,1.0,306.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis k-sigma (train-selected),0.5,455,818,911,0.3,0.75,1.25,1,1.0,0.2039,-363.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.7,637,836,911,0.3,0.75,1.25,1,1.0,0.2737,-199.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.6, a priori)",0.7,637,-1,911,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing2_1,RMS 3-sigma,0.7,637,212,911,0.3,0.75,1.25,1,0.392,1.0,425.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis 3-sigma,0.7,637,835,911,0.3,0.75,1.25,1,1.0,0.2774,-198.0
+PRONOSTIA,Learning_set_Bearing2_1,RMS k-sigma (train-selected),0.7,637,149,911,0.3,0.75,1.25,1,0.3596,1.0,488.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis k-sigma (train-selected),0.7,637,818,911,0.3,0.75,1.25,1,1.0,0.3394,-181.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.8,728,836,911,0.3,0.75,1.25,1,1.0,0.4098,-108.0
+PRONOSTIA,Learning_set_Bearing2_1,"VTOI (tau=0.6, a priori)",0.8,728,-1,911,0.3,0.75,1.25,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing2_1,RMS 3-sigma,0.8,728,212,911,0.3,0.75,1.25,1,0.2618,1.0,516.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis 3-sigma,0.8,728,835,911,0.3,0.75,1.25,1,1.0,0.4153,-107.0
+PRONOSTIA,Learning_set_Bearing2_1,RMS k-sigma (train-selected),0.8,728,149,911,0.3,0.75,1.25,1,0.2402,1.0,579.0
+PRONOSTIA,Learning_set_Bearing2_1,Kurtosis k-sigma (train-selected),0.8,728,818,911,0.3,0.75,1.25,1,1.0,0.5082,-90.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.5,398,194,797,0.3,1.0,2.75,1,0.6617,1.0,204.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.6, a priori)",0.5,398,397,797,0.3,1.0,2.75,1,0.9975,1.0,1.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS 3-sigma,0.5,398,194,797,0.3,1.0,2.75,1,0.6617,1.0,204.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis 3-sigma,0.5,398,187,797,0.3,1.0,2.75,1,0.6541,1.0,211.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS k-sigma (train-selected),0.5,398,25,797,0.3,1.0,2.75,1,0.5168,1.0,373.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis k-sigma (train-selected),0.5,398,187,797,0.3,1.0,2.75,1,0.6541,1.0,211.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.7,557,194,797,0.3,1.0,2.75,1,0.398,1.0,363.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.6, a priori)",0.7,557,397,797,0.3,1.0,2.75,1,0.6,1.0,160.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS 3-sigma,0.7,557,194,797,0.3,1.0,2.75,1,0.398,1.0,363.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis 3-sigma,0.7,557,187,797,0.3,1.0,2.75,1,0.3934,1.0,370.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS k-sigma (train-selected),0.7,557,25,797,0.3,1.0,2.75,1,0.3109,1.0,532.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis k-sigma (train-selected),0.7,557,187,797,0.3,1.0,2.75,1,0.3934,1.0,370.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.8,637,194,797,0.3,1.0,2.75,1,0.2653,1.0,443.0
+PRONOSTIA,Learning_set_Bearing2_2,"VTOI (tau=0.6, a priori)",0.8,637,397,797,0.3,1.0,2.75,1,0.4,1.0,240.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS 3-sigma,0.8,637,194,797,0.3,1.0,2.75,1,0.2653,1.0,443.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis 3-sigma,0.8,637,187,797,0.3,1.0,2.75,1,0.2623,1.0,450.0
+PRONOSTIA,Learning_set_Bearing2_2,RMS k-sigma (train-selected),0.8,637,25,797,0.3,1.0,2.75,1,0.2073,1.0,612.0
+PRONOSTIA,Learning_set_Bearing2_2,Kurtosis k-sigma (train-selected),0.8,637,187,797,0.3,1.0,2.75,1,0.2623,1.0,450.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.5,257,493,515,0.3,1.0,2.75,1,1.0,0.0853,-236.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.6, a priori)",0.5,257,511,515,0.3,1.0,2.75,1,1.0,0.0155,-254.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS 3-sigma,0.5,257,493,515,0.3,1.0,2.75,1,1.0,0.0853,-236.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis 3-sigma,0.5,257,453,515,0.3,1.0,2.75,1,1.0,0.2403,-196.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS k-sigma (train-selected),0.5,257,493,515,0.3,1.0,2.75,1,1.0,0.0853,-236.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis k-sigma (train-selected),0.5,257,453,515,0.3,1.0,2.75,1,1.0,0.2403,-196.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.7,360,493,515,0.3,1.0,2.75,1,1.0,0.1419,-133.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.6, a priori)",0.7,360,511,515,0.3,1.0,2.75,1,1.0,0.0258,-151.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS 3-sigma,0.7,360,493,515,0.3,1.0,2.75,1,1.0,0.1419,-133.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis 3-sigma,0.7,360,453,515,0.3,1.0,2.75,1,1.0,0.4,-93.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS k-sigma (train-selected),0.7,360,493,515,0.3,1.0,2.75,1,1.0,0.1419,-133.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis k-sigma (train-selected),0.7,360,453,515,0.3,1.0,2.75,1,1.0,0.4,-93.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.8,412,493,515,0.3,1.0,2.75,1,1.0,0.2136,-81.0
+PRONOSTIA,Learning_set_Bearing3_1,"VTOI (tau=0.6, a priori)",0.8,412,511,515,0.3,1.0,2.75,1,1.0,0.0388,-99.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS 3-sigma,0.8,412,493,515,0.3,1.0,2.75,1,1.0,0.2136,-81.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis 3-sigma,0.8,412,453,515,0.3,1.0,2.75,1,1.0,0.6019,-41.0
+PRONOSTIA,Learning_set_Bearing3_1,RMS k-sigma (train-selected),0.8,412,493,515,0.3,1.0,2.75,1,1.0,0.2136,-81.0
+PRONOSTIA,Learning_set_Bearing3_1,Kurtosis k-sigma (train-selected),0.8,412,453,515,0.3,1.0,2.75,1,1.0,0.6019,-41.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.5,818,1618,1637,0.3,0.75,2.75,1,1.0,0.0232,-800.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.6, a priori)",0.5,818,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS 3-sigma,0.5,818,1596,1637,0.3,0.75,2.75,1,1.0,0.0501,-778.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis 3-sigma,0.5,818,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS k-sigma (train-selected),0.5,818,23,1637,0.3,0.75,2.75,1,0.5074,1.0,795.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis k-sigma (train-selected),0.5,818,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.7,1145,1618,1637,0.3,0.75,2.75,1,1.0,0.0386,-473.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.6, a priori)",0.7,1145,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS 3-sigma,0.7,1145,1596,1637,0.3,0.75,2.75,1,1.0,0.0833,-451.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis 3-sigma,0.7,1145,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS k-sigma (train-selected),0.7,1145,23,1637,0.3,0.75,2.75,1,0.3048,1.0,1122.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis k-sigma (train-selected),0.7,1145,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.8,1309,1618,1637,0.3,0.75,2.75,1,1.0,0.0579,-309.0
+PRONOSTIA,Learning_set_Bearing3_2,"VTOI (tau=0.6, a priori)",0.8,1309,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS 3-sigma,0.8,1309,1596,1637,0.3,0.75,2.75,1,1.0,0.125,-287.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis 3-sigma,0.8,1309,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+PRONOSTIA,Learning_set_Bearing3_2,RMS k-sigma (train-selected),0.8,1309,23,1637,0.3,0.75,2.75,1,0.2032,1.0,1286.0
+PRONOSTIA,Learning_set_Bearing3_2,Kurtosis k-sigma (train-selected),0.8,1309,-1,1637,0.3,0.75,2.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.5,61,77,123,0.3,2.0,0.75,1,1.0,0.7419,-16.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.6, a priori)",0.5,61,83,123,0.3,2.0,0.75,1,1.0,0.6452,-22.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS 3-sigma,0.5,61,70,123,0.3,2.0,0.75,1,1.0,0.8548,-9.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis 3-sigma,0.5,61,74,123,0.3,2.0,0.75,1,1.0,0.7903,-13.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS k-sigma (train-selected),0.5,61,64,123,0.3,2.0,0.75,1,1.0,0.9516,-3.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis k-sigma (train-selected),0.5,61,16,123,0.3,2.0,0.75,1,0.5794,1.0,45.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.7,86,77,123,0.3,2.0,0.75,1,0.8043,1.0,9.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.6, a priori)",0.7,86,83,123,0.3,2.0,0.75,1,0.925,1.0,3.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS 3-sigma,0.7,86,70,123,0.3,2.0,0.75,1,0.6981,1.0,16.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis 3-sigma,0.7,86,74,123,0.3,2.0,0.75,1,0.7551,1.0,12.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS k-sigma (train-selected),0.7,86,64,123,0.3,2.0,0.75,1,0.6271,1.0,22.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis k-sigma (train-selected),0.7,86,16,123,0.3,2.0,0.75,1,0.3458,1.0,70.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.30, train-selected)",0.8,98,77,123,0.3,2.0,0.75,1,0.5435,1.0,21.0
+XJTU-SY,35Hz12kN_Bearing1_1,"VTOI (tau=0.6, a priori)",0.8,98,83,123,0.3,2.0,0.75,1,0.625,1.0,15.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS 3-sigma,0.8,98,70,123,0.3,2.0,0.75,1,0.4717,1.0,28.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis 3-sigma,0.8,98,74,123,0.3,2.0,0.75,1,0.5102,1.0,24.0
+XJTU-SY,35Hz12kN_Bearing1_1,RMS k-sigma (train-selected),0.8,98,64,123,0.3,2.0,0.75,1,0.4237,1.0,34.0
+XJTU-SY,35Hz12kN_Bearing1_1,Kurtosis k-sigma (train-selected),0.8,98,16,123,0.3,2.0,0.75,1,0.2336,1.0,82.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.5,80,42,161,0.3,2.0,1.25,1,0.6807,1.0,38.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.6, a priori)",0.5,80,59,161,0.3,2.0,1.25,1,0.7941,1.0,21.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS 3-sigma,0.5,80,31,161,0.3,2.0,1.25,1,0.6231,1.0,49.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis 3-sigma,0.5,80,45,161,0.3,2.0,1.25,1,0.6983,1.0,35.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS k-sigma (train-selected),0.5,80,31,161,0.3,2.0,1.25,1,0.6231,1.0,49.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis k-sigma (train-selected),0.5,80,0,161,0.3,2.0,1.25,1,0.5031,1.0,80.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.7,112,42,161,0.3,2.0,1.25,1,0.4118,1.0,70.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.6, a priori)",0.7,112,59,161,0.3,2.0,1.25,1,0.4804,1.0,53.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS 3-sigma,0.7,112,31,161,0.3,2.0,1.25,1,0.3769,1.0,81.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis 3-sigma,0.7,112,45,161,0.3,2.0,1.25,1,0.4224,1.0,67.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS k-sigma (train-selected),0.7,112,31,161,0.3,2.0,1.25,1,0.3769,1.0,81.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis k-sigma (train-selected),0.7,112,0,161,0.3,2.0,1.25,1,0.3043,1.0,112.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.30, train-selected)",0.8,128,42,161,0.3,2.0,1.25,1,0.2773,1.0,86.0
+XJTU-SY,35Hz12kN_Bearing1_2,"VTOI (tau=0.6, a priori)",0.8,128,59,161,0.3,2.0,1.25,1,0.3235,1.0,69.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS 3-sigma,0.8,128,31,161,0.3,2.0,1.25,1,0.2538,1.0,97.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis 3-sigma,0.8,128,45,161,0.3,2.0,1.25,1,0.2845,1.0,83.0
+XJTU-SY,35Hz12kN_Bearing1_2,RMS k-sigma (train-selected),0.8,128,31,161,0.3,2.0,1.25,1,0.2538,1.0,97.0
+XJTU-SY,35Hz12kN_Bearing1_2,Kurtosis k-sigma (train-selected),0.8,128,0,161,0.3,2.0,1.25,1,0.205,1.0,128.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.5,79,71,158,0.3,2.0,0.75,1,0.908,1.0,8.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.6, a priori)",0.5,79,115,158,0.3,2.0,0.75,1,1.0,0.5443,-36.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS 3-sigma,0.5,79,58,158,0.3,2.0,0.75,1,0.79,1.0,21.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis 3-sigma,0.5,79,60,158,0.3,2.0,0.75,1,0.8061,1.0,19.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS k-sigma (train-selected),0.5,79,58,158,0.3,2.0,0.75,1,0.79,1.0,21.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis k-sigma (train-selected),0.5,79,30,158,0.3,2.0,0.75,1,0.6172,1.0,49.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.7,110,71,158,0.3,2.0,0.75,1,0.5517,1.0,39.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.6, a priori)",0.7,110,115,158,0.3,2.0,0.75,1,1.0,0.8958,-5.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS 3-sigma,0.7,110,58,158,0.3,2.0,0.75,1,0.48,1.0,52.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis 3-sigma,0.7,110,60,158,0.3,2.0,0.75,1,0.4898,1.0,50.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS k-sigma (train-selected),0.7,110,58,158,0.3,2.0,0.75,1,0.48,1.0,52.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis k-sigma (train-selected),0.7,110,30,158,0.3,2.0,0.75,1,0.375,1.0,80.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.30, train-selected)",0.8,126,71,158,0.3,2.0,0.75,1,0.3678,1.0,55.0
+XJTU-SY,35Hz12kN_Bearing1_3,"VTOI (tau=0.6, a priori)",0.8,126,115,158,0.3,2.0,0.75,1,0.7442,1.0,11.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS 3-sigma,0.8,126,58,158,0.3,2.0,0.75,1,0.32,1.0,68.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis 3-sigma,0.8,126,60,158,0.3,2.0,0.75,1,0.3265,1.0,66.0
+XJTU-SY,35Hz12kN_Bearing1_3,RMS k-sigma (train-selected),0.8,126,58,158,0.3,2.0,0.75,1,0.32,1.0,68.0
+XJTU-SY,35Hz12kN_Bearing1_3,Kurtosis k-sigma (train-selected),0.8,126,30,158,0.3,2.0,0.75,1,0.25,1.0,96.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.5,61,85,122,0.3,2.0,1.25,1,1.0,0.6066,-24.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.6, a priori)",0.5,61,-1,122,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_4,RMS 3-sigma,0.5,61,83,122,0.3,2.0,1.25,1,1.0,0.6393,-22.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis 3-sigma,0.5,61,79,122,0.3,2.0,1.25,1,1.0,0.7049,-18.0
+XJTU-SY,35Hz12kN_Bearing1_4,RMS k-sigma (train-selected),0.5,61,80,122,0.3,2.0,1.25,1,1.0,0.6885,-19.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis k-sigma (train-selected),0.5,61,49,122,0.3,2.0,1.25,1,0.8356,1.0,12.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.7,85,85,122,0.3,2.0,1.25,1,1.0,1.0,0.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.6, a priori)",0.7,85,-1,122,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_4,RMS 3-sigma,0.7,85,83,122,0.3,2.0,1.25,1,0.9487,1.0,2.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis 3-sigma,0.7,85,79,122,0.3,2.0,1.25,1,0.8605,1.0,6.0
+XJTU-SY,35Hz12kN_Bearing1_4,RMS k-sigma (train-selected),0.7,85,80,122,0.3,2.0,1.25,1,0.881,1.0,5.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis k-sigma (train-selected),0.7,85,49,122,0.3,2.0,1.25,1,0.5068,1.0,36.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.30, train-selected)",0.8,97,85,122,0.3,2.0,1.25,1,0.6757,1.0,12.0
+XJTU-SY,35Hz12kN_Bearing1_4,"VTOI (tau=0.6, a priori)",0.8,97,-1,122,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_4,RMS 3-sigma,0.8,97,83,122,0.3,2.0,1.25,1,0.641,1.0,14.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis 3-sigma,0.8,97,79,122,0.3,2.0,1.25,1,0.5814,1.0,18.0
+XJTU-SY,35Hz12kN_Bearing1_4,RMS k-sigma (train-selected),0.8,97,80,122,0.3,2.0,1.25,1,0.5952,1.0,17.0
+XJTU-SY,35Hz12kN_Bearing1_4,Kurtosis k-sigma (train-selected),0.8,97,49,122,0.3,2.0,1.25,1,0.3425,1.0,48.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.5,26,34,52,0.3,2.0,0.75,1,1.0,0.6923,-8.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.6, a priori)",0.5,26,39,52,0.3,2.0,0.75,1,1.0,0.5,-13.0
+XJTU-SY,35Hz12kN_Bearing1_5,RMS 3-sigma,0.5,26,26,52,0.3,2.0,0.75,1,1.0,1.0,0.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis 3-sigma,0.5,26,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,RMS k-sigma (train-selected),0.5,26,25,52,0.3,2.0,0.75,1,0.963,1.0,1.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis k-sigma (train-selected),0.5,26,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.7,36,34,52,0.3,2.0,0.75,1,0.8889,1.0,2.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.6, a priori)",0.7,36,39,52,0.3,2.0,0.75,1,1.0,0.8125,-3.0
+XJTU-SY,35Hz12kN_Bearing1_5,RMS 3-sigma,0.7,36,26,52,0.3,2.0,0.75,1,0.6154,1.0,10.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis 3-sigma,0.7,36,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,RMS k-sigma (train-selected),0.7,36,25,52,0.3,2.0,0.75,1,0.5926,1.0,11.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis k-sigma (train-selected),0.7,36,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.30, train-selected)",0.8,41,34,52,0.3,2.0,0.75,1,0.6111,1.0,7.0
+XJTU-SY,35Hz12kN_Bearing1_5,"VTOI (tau=0.6, a priori)",0.8,41,39,52,0.3,2.0,0.75,1,0.8462,1.0,2.0
+XJTU-SY,35Hz12kN_Bearing1_5,RMS 3-sigma,0.8,41,26,52,0.3,2.0,0.75,1,0.4231,1.0,15.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis 3-sigma,0.8,41,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,35Hz12kN_Bearing1_5,RMS k-sigma (train-selected),0.8,41,25,52,0.3,2.0,0.75,1,0.4074,1.0,16.0
+XJTU-SY,35Hz12kN_Bearing1_5,Kurtosis k-sigma (train-selected),0.8,41,-1,52,0.3,2.0,0.75,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.5,245,454,491,0.3,2.0,0.75,1,1.0,0.1504,-209.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.6, a priori)",0.5,245,454,491,0.3,2.0,0.75,1,1.0,0.1504,-209.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS 3-sigma,0.5,245,452,491,0.3,2.0,0.75,1,1.0,0.1585,-207.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis 3-sigma,0.5,245,452,491,0.3,2.0,0.75,1,1.0,0.1585,-207.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS k-sigma (train-selected),0.5,245,452,491,0.3,2.0,0.75,1,1.0,0.1585,-207.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis k-sigma (train-selected),0.5,245,6,491,0.3,2.0,0.75,1,0.5072,1.0,239.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.7,343,454,491,0.3,2.0,0.75,1,1.0,0.25,-111.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.6, a priori)",0.7,343,454,491,0.3,2.0,0.75,1,1.0,0.25,-111.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS 3-sigma,0.7,343,452,491,0.3,2.0,0.75,1,1.0,0.2635,-109.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis 3-sigma,0.7,343,452,491,0.3,2.0,0.75,1,1.0,0.2635,-109.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS k-sigma (train-selected),0.7,343,452,491,0.3,2.0,0.75,1,1.0,0.2635,-109.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis k-sigma (train-selected),0.7,343,6,491,0.3,2.0,0.75,1,0.3052,1.0,337.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.30, train-selected)",0.8,392,454,491,0.3,2.0,0.75,1,1.0,0.3737,-62.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,"VTOI (tau=0.6, a priori)",0.8,392,454,491,0.3,2.0,0.75,1,1.0,0.3737,-62.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS 3-sigma,0.8,392,452,491,0.3,2.0,0.75,1,1.0,0.3939,-60.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis 3-sigma,0.8,392,452,491,0.3,2.0,0.75,1,1.0,0.3939,-60.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,RMS k-sigma (train-selected),0.8,392,452,491,0.3,2.0,0.75,1,1.0,0.3939,-60.0
+XJTU-SY,37.5Hz11kN_Bearing2_1,Kurtosis k-sigma (train-selected),0.8,392,6,491,0.3,2.0,0.75,1,0.2041,1.0,386.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.5,80,48,161,0.3,2.0,1.25,1,0.7168,1.0,32.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.6, a priori)",0.5,80,62,161,0.3,2.0,1.25,1,0.8182,1.0,18.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS 3-sigma,0.5,80,46,161,0.3,2.0,1.25,1,0.7043,1.0,34.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis 3-sigma,0.5,80,47,161,0.3,2.0,1.25,1,0.7105,1.0,33.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS k-sigma (train-selected),0.5,80,46,161,0.3,2.0,1.25,1,0.7043,1.0,34.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis k-sigma (train-selected),0.5,80,47,161,0.3,2.0,1.25,1,0.7105,1.0,33.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.7,112,48,161,0.3,2.0,1.25,1,0.4336,1.0,64.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.6, a priori)",0.7,112,62,161,0.3,2.0,1.25,1,0.4949,1.0,50.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS 3-sigma,0.7,112,46,161,0.3,2.0,1.25,1,0.4261,1.0,66.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis 3-sigma,0.7,112,47,161,0.3,2.0,1.25,1,0.4298,1.0,65.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS k-sigma (train-selected),0.7,112,46,161,0.3,2.0,1.25,1,0.4261,1.0,66.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis k-sigma (train-selected),0.7,112,47,161,0.3,2.0,1.25,1,0.4298,1.0,65.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.30, train-selected)",0.8,128,48,161,0.3,2.0,1.25,1,0.292,1.0,80.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,"VTOI (tau=0.6, a priori)",0.8,128,62,161,0.3,2.0,1.25,1,0.3333,1.0,66.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS 3-sigma,0.8,128,46,161,0.3,2.0,1.25,1,0.287,1.0,82.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis 3-sigma,0.8,128,47,161,0.3,2.0,1.25,1,0.2895,1.0,81.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,RMS k-sigma (train-selected),0.8,128,46,161,0.3,2.0,1.25,1,0.287,1.0,82.0
+XJTU-SY,37.5Hz11kN_Bearing2_2,Kurtosis k-sigma (train-selected),0.8,128,47,161,0.3,2.0,1.25,1,0.2895,1.0,81.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.5,266,130,533,0.3,2.0,1.25,1,0.6625,1.0,136.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.6, a priori)",0.5,266,326,533,0.3,2.0,1.25,1,1.0,0.7753,-60.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS 3-sigma,0.5,266,127,533,0.3,2.0,1.25,1,0.6576,1.0,139.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis 3-sigma,0.5,266,126,533,0.3,2.0,1.25,1,0.656,1.0,140.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS k-sigma (train-selected),0.5,266,127,533,0.3,2.0,1.25,1,0.6576,1.0,139.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis k-sigma (train-selected),0.5,266,120,533,0.3,2.0,1.25,1,0.6465,1.0,146.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.7,373,130,533,0.3,2.0,1.25,1,0.397,1.0,243.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.6, a priori)",0.7,373,326,533,0.3,2.0,1.25,1,0.7729,1.0,47.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS 3-sigma,0.7,373,127,533,0.3,2.0,1.25,1,0.3941,1.0,246.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis 3-sigma,0.7,373,126,533,0.3,2.0,1.25,1,0.3931,1.0,247.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS k-sigma (train-selected),0.7,373,127,533,0.3,2.0,1.25,1,0.3941,1.0,246.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis k-sigma (train-selected),0.7,373,120,533,0.3,2.0,1.25,1,0.3874,1.0,253.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.30, train-selected)",0.8,426,130,533,0.3,2.0,1.25,1,0.2655,1.0,296.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,"VTOI (tau=0.6, a priori)",0.8,426,326,533,0.3,2.0,1.25,1,0.5169,1.0,100.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS 3-sigma,0.8,426,127,533,0.3,2.0,1.25,1,0.2635,1.0,299.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis 3-sigma,0.8,426,126,533,0.3,2.0,1.25,1,0.2629,1.0,300.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,RMS k-sigma (train-selected),0.8,426,127,533,0.3,2.0,1.25,1,0.2635,1.0,299.0
+XJTU-SY,37.5Hz11kN_Bearing2_3,Kurtosis k-sigma (train-selected),0.8,426,120,533,0.3,2.0,1.25,1,0.2591,1.0,306.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.5,21,30,42,0.3,2.0,1.25,1,1.0,0.5714,-9.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.6, a priori)",0.5,21,31,42,0.3,2.0,1.25,1,1.0,0.5238,-10.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS 3-sigma,0.5,21,10,42,0.3,2.0,1.25,1,0.6562,1.0,11.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis 3-sigma,0.5,21,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS k-sigma (train-selected),0.5,21,9,42,0.3,2.0,1.25,1,0.6364,1.0,12.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis k-sigma (train-selected),0.5,21,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.7,29,30,42,0.3,2.0,1.25,1,1.0,0.9231,-1.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.6, a priori)",0.7,29,31,42,0.3,2.0,1.25,1,1.0,0.8462,-2.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS 3-sigma,0.7,29,10,42,0.3,2.0,1.25,1,0.4062,1.0,19.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis 3-sigma,0.7,29,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS k-sigma (train-selected),0.7,29,9,42,0.3,2.0,1.25,1,0.3939,1.0,20.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis k-sigma (train-selected),0.7,29,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.30, train-selected)",0.8,33,30,42,0.3,2.0,1.25,1,0.75,1.0,3.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,"VTOI (tau=0.6, a priori)",0.8,33,31,42,0.3,2.0,1.25,1,0.8182,1.0,2.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS 3-sigma,0.8,33,10,42,0.3,2.0,1.25,1,0.2812,1.0,23.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis 3-sigma,0.8,33,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_4,RMS k-sigma (train-selected),0.8,33,9,42,0.3,2.0,1.25,1,0.2727,1.0,24.0
+XJTU-SY,37.5Hz11kN_Bearing2_4,Kurtosis k-sigma (train-selected),0.8,33,-1,42,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.5,169,164,339,0.3,2.0,1.25,1,0.9714,1.0,5.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.6, a priori)",0.5,169,193,339,0.3,2.0,1.25,1,1.0,0.8588,-24.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS 3-sigma,0.5,169,136,339,0.3,2.0,1.25,1,0.8374,1.0,33.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis 3-sigma,0.5,169,-1,339,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS k-sigma (train-selected),0.5,169,121,339,0.3,2.0,1.25,1,0.7798,1.0,48.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis k-sigma (train-selected),0.5,169,18,339,0.3,2.0,1.25,1,0.5296,1.0,151.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.7,237,164,339,0.3,2.0,1.25,1,0.5829,1.0,73.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.6, a priori)",0.7,237,193,339,0.3,2.0,1.25,1,0.6986,1.0,44.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS 3-sigma,0.7,237,136,339,0.3,2.0,1.25,1,0.5025,1.0,101.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis 3-sigma,0.7,237,-1,339,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS k-sigma (train-selected),0.7,237,121,339,0.3,2.0,1.25,1,0.4679,1.0,116.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis k-sigma (train-selected),0.7,237,18,339,0.3,2.0,1.25,1,0.3178,1.0,219.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.30, train-selected)",0.8,271,164,339,0.3,2.0,1.25,1,0.3886,1.0,107.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,"VTOI (tau=0.6, a priori)",0.8,271,193,339,0.3,2.0,1.25,1,0.4658,1.0,78.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS 3-sigma,0.8,271,136,339,0.3,2.0,1.25,1,0.335,1.0,135.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis 3-sigma,0.8,271,-1,339,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,37.5Hz11kN_Bearing2_5,RMS k-sigma (train-selected),0.8,271,121,339,0.3,2.0,1.25,1,0.3119,1.0,150.0
+XJTU-SY,37.5Hz11kN_Bearing2_5,Kurtosis k-sigma (train-selected),0.8,271,18,339,0.3,2.0,1.25,1,0.2118,1.0,253.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.5,1269,2391,2538,0.3,2.0,1.25,1,1.0,0.1158,-1122.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.6, a priori)",0.5,1269,2438,2538,0.3,2.0,1.25,1,1.0,0.0788,-1169.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS 3-sigma,0.5,1269,2340,2538,0.3,2.0,1.25,1,1.0,0.156,-1071.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis 3-sigma,0.5,1269,2493,2538,0.3,2.0,1.25,1,1.0,0.0355,-1224.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS k-sigma (train-selected),0.5,1269,24,2538,0.3,2.0,1.25,1,0.5048,1.0,1245.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis k-sigma (train-selected),0.5,1269,8,2538,0.3,2.0,1.25,1,0.5016,1.0,1261.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.7,1776,2391,2538,0.3,2.0,1.25,1,1.0,0.1929,-615.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.6, a priori)",0.7,1776,2438,2538,0.3,2.0,1.25,1,1.0,0.1312,-662.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS 3-sigma,0.7,1776,2340,2538,0.3,2.0,1.25,1,1.0,0.2598,-564.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis 3-sigma,0.7,1776,2493,2538,0.3,2.0,1.25,1,1.0,0.0591,-717.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS k-sigma (train-selected),0.7,1776,24,2538,0.3,2.0,1.25,1,0.3031,1.0,1752.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis k-sigma (train-selected),0.7,1776,8,2538,0.3,2.0,1.25,1,0.3012,1.0,1768.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.30, train-selected)",0.8,2030,2391,2538,0.3,2.0,1.25,1,1.0,0.2894,-361.0
+XJTU-SY,40Hz10kN_Bearing3_1,"VTOI (tau=0.6, a priori)",0.8,2030,2438,2538,0.3,2.0,1.25,1,1.0,0.1969,-408.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS 3-sigma,0.8,2030,2340,2538,0.3,2.0,1.25,1,1.0,0.3898,-310.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis 3-sigma,0.8,2030,2493,2538,0.3,2.0,1.25,1,1.0,0.0886,-463.0
+XJTU-SY,40Hz10kN_Bearing3_1,RMS k-sigma (train-selected),0.8,2030,24,2538,0.3,2.0,1.25,1,0.2021,1.0,2006.0
+XJTU-SY,40Hz10kN_Bearing3_1,Kurtosis k-sigma (train-selected),0.8,2030,8,2538,0.3,2.0,1.25,1,0.2008,1.0,2022.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.5,1248,2064,2496,0.3,2.0,1.5,1,1.0,0.3462,-816.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.6, a priori)",0.5,1248,2479,2496,0.3,2.0,1.5,1,1.0,0.0136,-1231.0
+XJTU-SY,40Hz10kN_Bearing3_2,RMS 3-sigma,0.5,1248,1441,2496,0.3,2.0,1.5,1,1.0,0.8454,-193.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis 3-sigma,0.5,1248,-1,2496,0.3,2.0,1.5,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_2,RMS k-sigma (train-selected),0.5,1248,1231,2496,0.3,2.0,1.5,1,0.9866,1.0,17.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis k-sigma (train-selected),0.5,1248,11,2496,0.3,2.0,1.5,1,0.5022,1.0,1237.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.7,1747,2064,2496,0.3,2.0,1.5,1,1.0,0.5768,-317.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.6, a priori)",0.7,1747,2479,2496,0.3,2.0,1.5,1,1.0,0.0227,-732.0
+XJTU-SY,40Hz10kN_Bearing3_2,RMS 3-sigma,0.7,1747,1441,2496,0.3,2.0,1.5,1,0.71,1.0,306.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis 3-sigma,0.7,1747,-1,2496,0.3,2.0,1.5,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_2,RMS k-sigma (train-selected),0.7,1747,1231,2496,0.3,2.0,1.5,1,0.5921,1.0,516.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis k-sigma (train-selected),0.7,1747,11,2496,0.3,2.0,1.5,1,0.3014,1.0,1736.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.30, train-selected)",0.8,1996,2064,2496,0.3,2.0,1.5,1,1.0,0.864,-68.0
+XJTU-SY,40Hz10kN_Bearing3_2,"VTOI (tau=0.6, a priori)",0.8,1996,2479,2496,0.3,2.0,1.5,1,1.0,0.034,-483.0
+XJTU-SY,40Hz10kN_Bearing3_2,RMS 3-sigma,0.8,1996,1441,2496,0.3,2.0,1.5,1,0.4739,1.0,555.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis 3-sigma,0.8,1996,-1,2496,0.3,2.0,1.5,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_2,RMS k-sigma (train-selected),0.8,1996,1231,2496,0.3,2.0,1.5,1,0.3953,1.0,765.0
+XJTU-SY,40Hz10kN_Bearing3_2,Kurtosis k-sigma (train-selected),0.8,1996,11,2496,0.3,2.0,1.5,1,0.2012,1.0,1985.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.5,185,340,371,0.3,4.0,1.5,1,1.0,0.1667,-155.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.6, a priori)",0.5,185,343,371,0.3,4.0,1.5,1,1.0,0.1505,-158.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS 3-sigma,0.5,185,341,371,0.3,4.0,1.5,1,1.0,0.1613,-156.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis 3-sigma,0.5,185,339,371,0.3,4.0,1.5,1,1.0,0.172,-154.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS k-sigma (train-selected),0.5,185,341,371,0.3,4.0,1.5,1,1.0,0.1613,-156.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis k-sigma (train-selected),0.5,185,339,371,0.3,4.0,1.5,1,1.0,0.172,-154.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.7,259,340,371,0.3,4.0,1.5,1,1.0,0.2768,-81.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.6, a priori)",0.7,259,343,371,0.3,4.0,1.5,1,1.0,0.25,-84.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS 3-sigma,0.7,259,341,371,0.3,4.0,1.5,1,1.0,0.2679,-82.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis 3-sigma,0.7,259,339,371,0.3,4.0,1.5,1,1.0,0.2857,-80.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS k-sigma (train-selected),0.7,259,341,371,0.3,4.0,1.5,1,1.0,0.2679,-82.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis k-sigma (train-selected),0.7,259,339,371,0.3,4.0,1.5,1,1.0,0.2857,-80.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.30, train-selected)",0.8,296,340,371,0.3,4.0,1.5,1,1.0,0.4133,-44.0
+XJTU-SY,40Hz10kN_Bearing3_3,"VTOI (tau=0.6, a priori)",0.8,296,343,371,0.3,4.0,1.5,1,1.0,0.3733,-47.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS 3-sigma,0.8,296,341,371,0.3,4.0,1.5,1,1.0,0.4,-45.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis 3-sigma,0.8,296,339,371,0.3,4.0,1.5,1,1.0,0.4267,-43.0
+XJTU-SY,40Hz10kN_Bearing3_3,RMS k-sigma (train-selected),0.8,296,341,371,0.3,4.0,1.5,1,1.0,0.4,-45.0
+XJTU-SY,40Hz10kN_Bearing3_3,Kurtosis k-sigma (train-selected),0.8,296,339,371,0.3,4.0,1.5,1,1.0,0.4267,-43.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.30, train-selected)",0.5,757,1417,1515,0.3,2.0,1.25,1,1.0,0.1293,-660.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.6, a priori)",0.5,757,1438,1515,0.3,2.0,1.25,1,1.0,0.1016,-681.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS 3-sigma,0.5,757,1417,1515,0.3,2.0,1.25,1,1.0,0.1293,-660.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis 3-sigma,0.5,757,1417,1515,0.3,2.0,1.25,1,1.0,0.1293,-660.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS k-sigma (train-selected),0.5,757,1012,1515,0.3,2.0,1.25,1,1.0,0.6636,-255.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis k-sigma (train-selected),0.5,757,0,1515,0.3,2.0,1.25,1,0.5003,1.0,757.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.30, train-selected)",0.7,1060,1417,1515,0.3,2.0,1.25,1,1.0,0.2154,-357.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.6, a priori)",0.7,1060,1438,1515,0.3,2.0,1.25,1,1.0,0.1692,-378.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS 3-sigma,0.7,1060,1417,1515,0.3,2.0,1.25,1,1.0,0.2154,-357.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis 3-sigma,0.7,1060,1417,1515,0.3,2.0,1.25,1,1.0,0.2154,-357.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS k-sigma (train-selected),0.7,1060,1012,1515,0.3,2.0,1.25,1,0.9046,1.0,48.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis k-sigma (train-selected),0.7,1060,0,1515,0.3,2.0,1.25,1,0.3003,1.0,1060.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.30, train-selected)",0.8,1212,1417,1515,0.3,2.0,1.25,1,1.0,0.3234,-205.0
+XJTU-SY,40Hz10kN_Bearing3_4,"VTOI (tau=0.6, a priori)",0.8,1212,1438,1515,0.3,2.0,1.25,1,1.0,0.2541,-226.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS 3-sigma,0.8,1212,1417,1515,0.3,2.0,1.25,1,1.0,0.3234,-205.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis 3-sigma,0.8,1212,1417,1515,0.3,2.0,1.25,1,1.0,0.3234,-205.0
+XJTU-SY,40Hz10kN_Bearing3_4,RMS k-sigma (train-selected),0.8,1212,1012,1515,0.3,2.0,1.25,1,0.6024,1.0,200.0
+XJTU-SY,40Hz10kN_Bearing3_4,Kurtosis k-sigma (train-selected),0.8,1212,0,1515,0.3,2.0,1.25,1,0.2,1.0,1212.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.30, train-selected)",0.5,57,73,114,0.3,2.0,1.25,1,1.0,0.7193,-16.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.6, a priori)",0.5,57,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS 3-sigma,0.5,57,32,114,0.3,2.0,1.25,1,0.6951,1.0,25.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis 3-sigma,0.5,57,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS k-sigma (train-selected),0.5,57,29,114,0.3,2.0,1.25,1,0.6706,1.0,28.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis k-sigma (train-selected),0.5,57,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.30, train-selected)",0.7,79,73,114,0.3,2.0,1.25,1,0.8537,1.0,6.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.6, a priori)",0.7,79,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS 3-sigma,0.7,79,32,114,0.3,2.0,1.25,1,0.4268,1.0,47.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis 3-sigma,0.7,79,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS k-sigma (train-selected),0.7,79,29,114,0.3,2.0,1.25,1,0.4118,1.0,50.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis k-sigma (train-selected),0.7,79,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.30, train-selected)",0.8,91,73,114,0.3,2.0,1.25,1,0.561,1.0,18.0
+XJTU-SY,40Hz10kN_Bearing3_5,"VTOI (tau=0.6, a priori)",0.8,91,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS 3-sigma,0.8,91,32,114,0.3,2.0,1.25,1,0.2805,1.0,59.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis 3-sigma,0.8,91,-1,114,0.3,2.0,1.25,0,0.0,0.0,
+XJTU-SY,40Hz10kN_Bearing3_5,RMS k-sigma (train-selected),0.8,91,29,114,0.3,2.0,1.25,1,0.2706,1.0,62.0
+XJTU-SY,40Hz10kN_Bearing3_5,Kurtosis k-sigma (train-selected),0.8,91,-1,114,0.3,2.0,1.25,0,0.0,0.0,

@@ -1,0 +1,16 @@
+# pronostia.yaml — cấu hình external validation PRONOSTIA/FEMTO (có nhiệt độ ở 1 số bearing).
+dataset:
+  name: pronostia
+  has_temperature: true     # 1 số bearing có nhiệt độ -> MTOI đầy đủ; bearing không có -> tự rút gọn
+segmentation:
+  window_length: 2560       # FEMTO mỗi snapshot ~2560 mẫu (0.1s @ 25.6kHz) -> 1 cửa sổ/snapshot
+  overlap: 0.0
+  max_windows_per_hour: 1
+mtoi:
+  baseline_frac: 0.2
+  train_frac: 0.6
+  k_temp: 5
+  use_sigmoid: false
+labels: {stage_mode: time, tau: 0.6, q: 3}
+split: {train: 0.6, val: 0.2}
+seed: 42
