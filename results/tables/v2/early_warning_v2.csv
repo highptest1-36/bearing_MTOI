@@ -1,0 +1,13 @@
+dataset,detector,n,fired,precision,recall,lead,fired_on
+PRONOSTIA,Kurtosis 3-sigma,17,16,0.774,0.676,-21.0,16/17
+PRONOSTIA,Kurtosis k-sigma (train-selected),17,16,0.681,0.663,311.0,16/17
+PRONOSTIA,RMS 3-sigma,17,16,0.774,0.564,-71.0,16/17
+PRONOSTIA,RMS k-sigma (train-selected),17,17,0.524,0.838,805.0,17/17
+PRONOSTIA,"VTOI (tau=0.30, train-selected)",17,17,0.917,0.415,-226.0,17/17
+PRONOSTIA,"VTOI (tau=0.6, a priori)",17,13,0.753,0.19,-267.0,13/17
+XJTU-SY,Kurtosis 3-sigma,15,10,0.554,0.432,-3.5,10/15
+XJTU-SY,Kurtosis k-sigma (train-selected),15,12,0.411,0.748,140.5,12/15
+XJTU-SY,RMS 3-sigma,15,15,0.78,0.77,15.0,15/15
+XJTU-SY,RMS k-sigma (train-selected),15,15,0.715,0.872,36.0,15/15
+XJTU-SY,"VTOI (tau=0.30, train-selected)",15,15,0.878,0.684,-5.0,15/15
+XJTU-SY,"VTOI (tau=0.6, a priori)",15,13,0.815,0.488,-10.0,13/15

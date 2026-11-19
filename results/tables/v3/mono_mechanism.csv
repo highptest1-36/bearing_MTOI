@@ -1,0 +1,3 @@
+dataset,n,weight,ties_E,ties_V,signed_E,signed_V,signed_smooth_E,signed_smooth_V,n_fall_excess_V,steps,flips,rise_to_fall,flip_share,rise_to_fall_share
+PRONOSTIA,17,0.88,0.0,0.0,0.0098,-0.0721,0.1332,0.1269,17,24872,3521,2336,0.1416,0.6634
+XJTU-SY,15,1.0,0.0071,0.0071,0.1176,0.1176,0.325,0.325,1,9201,0,0,0.0,

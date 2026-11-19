@@ -1,0 +1,5 @@
+,mae_base,mae_base,mae_hi_frozen_healthy,mae_hi_frozen_healthy,mae_hi_shuffled,mae_hi_shuffled,mae_embedding_occluded,mae_embedding_occluded,grad_ratio_hi_over_emb,grad_ratio_hi_over_emb,grad_hi_E,grad_hi_E,grad_hi_C,grad_hi_C,grad_hi_VTOI,grad_hi_VTOI
+,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median,mean,median
+dataset,,,,,,,,,,,,,,,,
+pronostia,0.276,0.2865,0.2776,0.2867,0.2765,0.2863,0.3487,0.3513,2.3128,2.2016,0.0201,0.015,0.0126,0.0096,0.0191,0.0141
+xjtu_sy,0.2505,0.252,0.248,0.26,0.2505,0.252,0.3521,0.347,2.3878,1.7598,0.0251,0.0149,0.0173,0.0092,0.0253,0.0162

@@ -1,0 +1,23 @@
+# ablation.yaml — danh sách biến thể ablation (plan mục 16, Experiment 3).
+# Mỗi biến thể ghi rõ thay đổi so với full model. phase7_ablation.py đọc danh sách này.
+base_config: main_mendeley.yaml
+variants:
+  - name: full_model            # mô hình đầy đủ (mốc so sánh)
+    use_temp: true
+    fusion: gated
+    mtoi_target: MTOI_learnable
+    loss: {lambda1: 0.3, lambda3: 0.05, lambda4: 0.05}
+  - name: wo_temperature        # bỏ nhánh nhiệt độ
+    use_temp: false
+  - name: wo_L_mtoi             # bỏ giám sát MTOI (lambda1=0) -> chứng minh MTOI-guided hữu ích
+    loss: {lambda1: 0.0}
+  - name: wo_L_smooth           # bỏ smoothness
+    loss: {lambda3: 0.0}
+  - name: wo_L_mono             # bỏ monotonic
+    loss: {lambda4: 0.0}
+  - name: fixed_mtoi            # dùng MTOI cố định làm nhãn (thay vì learnable)
+    mtoi_target: MTOI_fixed
+  - name: concat_fusion         # thay gated bằng concat
+    fusion: concat
+# Ghi chú: biến thể w/o E_h, w/o C_h, w/o G_h được thực hiện ở Phase 4 (mtoi.py)
+#          bằng cách đặt trọng số thành phần tương ứng = 0 khi xây MTOI, rồi train lại.

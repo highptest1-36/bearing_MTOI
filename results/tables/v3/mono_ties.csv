@@ -1,0 +1,7 @@
+dataset,series,frac_tie,frac_at_0,frac_at_1,n_pos,n_neg,mono
+PRONOSTIA,Abnormality,0.0,0.0,0.0,590.0,559.0,0.0151
+PRONOSTIA,State-change,0.0013,0.0,0.0,654.0,618.0,0.0172
+PRONOSTIA,VTOI,0.0,0.0,0.0,682.0,745.0,0.0721
+XJTU-SY,Abnormality,0.0071,0.0056,0.0,103.0,62.0,0.1176
+XJTU-SY,State-change,0.0083,0.0,0.0102,83.0,75.0,0.041
+XJTU-SY,VTOI,0.0071,0.0056,0.0,103.0,62.0,0.1176

@@ -1,0 +1,2 @@
+dataset,holdout,seed,n_train_bearings,H_max_train,a,b,fitness,a_mono,b_mono,E_lo,E_hi,C_lo,C_hi,holdout_sat_frac,holdout_n_baseline,holdout_cov_estimator,holdout_shrinkage
+pronostia,Full_Test_Set_Bearing1_6,43,15,2803,0.88,0.12,0.707944,0.79,0.21,0.2619364518293111,8.75209361767562,0.17255679898811066,7.1920487495259815,0.0,489,ledoit_wolf,0.040081971221418954

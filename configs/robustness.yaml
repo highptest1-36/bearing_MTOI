@@ -1,0 +1,13 @@
+# robustness.yaml — cấu hình kịch bản robustness (plan mục 16, Experiment 5).
+base_config: main_mendeley.yaml
+scenarios:
+  - {name: Clean,        mode: clean}
+  - {name: SNR_10dB,     mode: noise, snr_db: 10}
+  - {name: SNR_5dB,      mode: noise, snr_db: 5}
+  - {name: SNR_0dB,      mode: noise, snr_db: 0}
+  - {name: SNR_-5dB,     mode: noise, snr_db: -5}
+  - {name: Missing_temp, mode: missing_temp}
+  - {name: Missing_vib_y, mode: missing_vib_y}
+  - {name: Temp_drift,   mode: temp_drift, drift: 3.0}
+window_sizes: [2048, 4096, 8192]   # thử các độ dài cửa sổ khác nhau (chạy lại Phase 2-6 mỗi giá trị)
+compare_models: [proposed_learnable, fusion_concat]  # so model đề xuất với fusion baseline

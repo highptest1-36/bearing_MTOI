@@ -1,0 +1,3 @@
+dataset,config,holdout,seed,epochs,lr,best_epoch,best_val,rul_mae,rul_rmse,slope,minutes
+pronostia,ctl_lifefrac,Full_Test_Set_Bearing1_3,42,20,0.001,20,0.008940338480601958,0.06412442773580551,0.08528733998537064,0.9686321604174165,101.8
+pronostia,ctl_lifefrac,Full_Test_Set_Bearing1_3,42,40,0.001,37,0.005561510335747935,0.03663620352745056,0.051799166947603226,0.9757780763097865,40.0

@@ -1,0 +1,63 @@
+# ==========================================================================================
+# main_mendeley.yaml — CẤU HÌNH THÍ NGHIỆM CHÍNH (dataset Mendeley).
+# Mọi tham số quan trọng gom về đây để dễ chỉnh và tái lập. Đọc bằng src/utils/config.py.
+# ==========================================================================================
+
+dataset:
+  name: mendeley            # tên dataset
+  has_temperature: true     # Mendeley CÓ nhiệt độ -> dùng MTOI đầy đủ (E+C+G)
+
+# ---- Phase 2: cắt cửa sổ ----
+segmentation:
+  window_length: 4096       # L: độ dài cửa sổ (số mẫu). Thử 2048/4096/8192 ở robustness.
+  overlap: 0.5              # chồng lấp 50%
+  max_windows_per_hour: 64  # số cửa sổ tối đa mỗi giờ (giữ file npy ~270MB, đủ đại diện)
+  max_files: null           # null = dùng cả 129 giờ; đặt số nhỏ (vd 5) để TEST nhanh
+  max_rows: null            # null = đọc đủ mỗi file; đặt số (vd 200000) để TEST nhanh
+
+# ---- Phase 4: xây MTOI ----
+mtoi:
+  baseline_frac: 0.2        # 20% giờ đầu = baseline normal (cho robust scaling & Mahalanobis)
+  train_frac: 0.6           # 60% giờ đầu = train (cho min-max norm leakage-free & học trọng số)
+  k_temp: 5                 # cửa sổ tính độ dốc nhiệt độ G_h
+  use_sigmoid: false        # false = dùng tổng có trọng số trực tiếp (khuyến nghị, trải 0-1)
+
+# ---- Phase 5: nhãn ----
+labels:
+  stage_mode: time          # 'time' (theo vòng đời) hoặc 'mtoi' (theo ngưỡng MTOI)
+  tau: 0.6                  # ngưỡng cảnh báo
+  q: 3                      # số giờ liên tục vượt ngưỡng để bật cảnh báo
+
+# ---- Chia tập ----
+split:
+  train: 0.6                # 60% đầu -> train
+  val: 0.2                  # 20% kế -> val
+  # còn lại 20% -> test (theo thời gian, chống leakage)
+
+# ---- Mô hình ----
+model:
+  emb_dim: 128              # chiều embedding của các encoder
+  n_stages: 4               # số giai đoạn (Normal/Early/Degraded/Critical)
+  temp_dim: 4               # số đặc trưng nhiệt độ đầu vào
+  fusion: gated             # 'gated' (đề xuất) hoặc 'concat' (baseline)
+  use_attention: false      # bật temporal attention trong vib encoder (tuỳ chọn)
+  use_uncertainty: false    # bật đầu ra phân vị RUL (tuỳ chọn)
+
+# ---- Huấn luyện ----
+train:
+  epochs: 40                # số epoch tối đa
+  batch_size: 128           # kích thước batch (A100 có thể tăng 256/512)
+  lr: 0.001                 # learning rate
+  weight_decay: 0.0001      # hệ số phạt L2
+  patience: 8               # early stopping
+  num_workers: 2            # số tiến trình nạp dữ liệu
+
+# ---- Trọng số loss đa nhiệm (plan mục 13.6) ----
+loss:
+  lambda1: 0.3              # L_MTOI (auxiliary supervision) -> đặt 0 để tạo biến thể "w/o MTOI"
+  lambda2: 0.2              # L_RUL
+  lambda3: 0.05             # L_smooth
+  lambda4: 0.05             # L_mono
+  lambda5: 0.1              # L_unc (nếu bật uncertainty)
+
+seed: 42                    # cố định seed để tái lập

@@ -1,0 +1,13 @@
+dataset,model,constant,mean_diff,p,model_better
+PRONOSTIA,VTOI-conditioned (proposed),Constant 0.5,-0.079,0.0,17/17
+PRONOSTIA,Transformer,Constant 0.5,-0.0774,0.0,17/17
+PRONOSTIA,Elapsed time only,Constant 0.5,-0.1001,0.0,17/17
+PRONOSTIA,VTOI-conditioned (proposed),Constant training mean,-0.0231,0.0046,14/17
+PRONOSTIA,Transformer,Constant training mean,-0.0214,0.0046,14/17
+PRONOSTIA,Elapsed time only,Constant training mean,-0.0441,0.0004,15/17
+XJTU-SY,VTOI-conditioned (proposed),Constant 0.5,-0.1117,0.0006,14/15
+XJTU-SY,Transformer,Constant 0.5,-0.1087,0.0012,14/15
+XJTU-SY,Elapsed time only,Constant 0.5,-0.1213,0.0009,14/15
+XJTU-SY,VTOI-conditioned (proposed),Constant training mean,-0.0561,0.0067,13/15
+XJTU-SY,Transformer,Constant training mean,-0.0531,0.0125,13/15
+XJTU-SY,Elapsed time only,Constant training mean,-0.0657,0.0067,14/15

@@ -1,0 +1,3 @@
+dataset,mae_base,d_healthy,d_failure,d_reversed,d_e_mean,raw_grad_ratio,gxi_share_c,ig_share_c,ig_completeness_err,c_iqr
+pronostia,0.2712,0.0015,0.0087,0.0059,0.0232,2.204,0.1631,0.1632,0.0005,0.1197
+xjtu_sy,0.2411,-0.0021,0.0207,0.0164,0.0625,2.2793,0.1603,0.1454,0.0011,0.382

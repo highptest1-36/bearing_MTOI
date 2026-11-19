@@ -1,0 +1,16 @@
+# xjtu_sy.yaml — cấu hình external validation XJTU-SY (KHÔNG nhiệt độ -> MTOI rút gọn E+C).
+dataset:
+  name: xjtu_sy
+  has_temperature: false    # XJTU-SY không có nhiệt độ -> MTOI^vib = a·Ẽ + b·C̃
+segmentation:
+  window_length: 4096
+  overlap: 0.5
+  max_windows_per_hour: 32  # mỗi file 32768 mẫu (1 phút) -> lấy 32 cửa sổ
+mtoi:
+  baseline_frac: 0.2
+  train_frac: 0.6
+  k_temp: 5
+  use_sigmoid: false
+labels: {stage_mode: time, tau: 0.6, q: 3}
+split: {train: 0.6, val: 0.2}
+seed: 42

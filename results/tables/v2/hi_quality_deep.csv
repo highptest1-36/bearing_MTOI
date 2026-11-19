@@ -1,0 +1,9 @@
+dataset,indicator,monotonicity_median,trendability_min,trendability_median,prognosability,rho_vs_deg_median,n_bearings
+PRONOSTIA,Autoencoder-HI (deep),0.0131,0.0557,0.1517,0.1158,0.4517,17
+PRONOSTIA,Self-supervised HI,0.0073,0.0486,0.161,0.0796,0.2151,17
+PRONOSTIA,Variational HI (VAE),0.0107,0.0724,0.1704,0.128,0.4306,17
+PRONOSTIA,VTOI,0.0721,0.2448,0.5766,0.7443,0.5937,17
+XJTU-SY,Autoencoder-HI (deep),0.0492,0.065,0.3215,0.0601,0.8298,15
+XJTU-SY,Self-supervised HI,0.0446,0.0617,0.3425,0.0561,0.7759,15
+XJTU-SY,Variational HI (VAE),0.0588,0.0789,0.4145,0.0981,0.5304,15
+XJTU-SY,VTOI,0.1176,0.4321,0.8826,0.8482,0.8938,15
